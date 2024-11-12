@@ -84,12 +84,16 @@ const Bio = () => {
                 onClick={() => openModal('/assets/front end developer.png')}
               />
             </div>
-            <span data-aos="fade-up" className="name flex justify-center items-center text-center pt-4 pb-1 text-2xl">
+            <div data-aos="fade-up">
+            <span className="name flex justify-center items-center text-center pt-4 pb-1 text-2xl">
               Muhammad Sudais
             </span>
-            <span data-aos="fade-up" className="flex justify-center items-center text-xl">
+            </div>
+            <div data-aos="fade-up">
+            <span className="flex justify-center items-center text-xl">
               Experienced Front end developer
             </span>
+            </div>
             <div data-aos="fade-up" className="flex justify-center items-center pt-12">
               <button
                 onClick={() => handleToggleBio('sudais')}
