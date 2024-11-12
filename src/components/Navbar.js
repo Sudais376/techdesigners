@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import SmNavbar from "./SmNavbar";
 
-const Navbar = () => {
+const  Navbar = () => {
   // State to track if SmNavbar is open
   const [isSmNavbarOpen, setIsSmNavbarOpen] = useState(false);
 
@@ -17,8 +17,8 @@ const Navbar = () => {
       {isSmNavbarOpen ? (
         <SmNavbar onClose={toggleSmNavbar} />
       ) : (
-        <header>
-          <nav className="sticky top-0 bg-gradient-to-r from-customPurpleEnd to-customPurpleStart flex justify-between items-center py-4 px-8 md:px-12 lg:px-24">
+        <header className="sticky top-0 z-20">
+          <nav className=" bg-gradient-to-r from-customPurpleEnd to-customPurpleStart flex justify-between items-center py-4 px-8 md:px-12 lg:px-24">
             {/* First Three navigation links on the Left side */}
             <div>
               <ul className="hidden md:flex justify-center items-center gap-6">

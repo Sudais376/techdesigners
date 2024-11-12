@@ -10,14 +10,15 @@ const SmNavbar = ({onClose}) => {
 
   return (
     <>
-      <header>
-        <nav className=" sticky top-0 w-full bg-gradient-to-r from-customPurpleEnd to-customPurpleStart py-4 px-8 ">
+      <header className=" sticky top-0 z-20 ">
+        <nav className=" w-full bg-gradient-to-r from-customPurpleEnd to-customPurpleStart py-4 px-8 ">
           {/* Logo on the Left side and Close Icon on the Right side  */}
 
           <div data-aos ="fade-down" className=" flex justify-between items-center ">
             <div data-aos ="fade-down">
               <Link to="/">
                 <img
+                onClick={onClose} 
                   className="hover:scale-105 transition duration-500"
                   src="/assets/logo.png"
                   width={40}
@@ -34,7 +35,7 @@ const SmNavbar = ({onClose}) => {
 
           <div>
             <ul  className=" flex flex-col justify-center py-6 ">
-              <Link data-aos ="fade-right" to="/">
+              <Link onClick={onClose}  data-aos ="fade-right" to="/">
                 <a
                   className="text-white hover:underline hover:text-[#ff4df3] transition duration-500 "
                   href="/"
@@ -43,7 +44,7 @@ const SmNavbar = ({onClose}) => {
                 </a>
               </Link>
               <hr data-aos ="fade-left" className=" border border-[#ff4df3] mb-4 mt-1 " />
-              <Link data-aos ="fade-right" to="/services">
+              <Link onClick={onClose}  data-aos ="fade-right" to="/services">
                 <a
                   className="text-white hover:underline hover:text-[#ff4df3] transition duration-500 "
                   href="/services"
@@ -52,7 +53,7 @@ const SmNavbar = ({onClose}) => {
                 </a>
               </Link>
               <hr data-aos ="fade-left" className=" border border-[#ff4df3] mb-4 mt-1 " />
-              <Link data-aos ="fade-right" to="/packages">
+              <Link onClick={onClose}  data-aos ="fade-right" to="/packages">
                 <a
                   className="text-white hover:underline hover:text-[#ff4df3] transition duration-500 "
                   href="/packages"
@@ -61,7 +62,7 @@ const SmNavbar = ({onClose}) => {
                 </a>
               </Link>
               <hr data-aos ="fade-left" className=" border border-[#ff4df3] mb-4 mt-1 " />
-              <Link data-aos ="fade-right" to="/portfolio">
+              <Link onClick={onClose}  data-aos ="fade-right" to="/portfolio">
                 <a
                   className="text-white hover:underline hover:text-[#ff4df3] transition duration-500 "
                   href="/portfolio"
@@ -70,7 +71,7 @@ const SmNavbar = ({onClose}) => {
                 </a>
               </Link>
               <hr data-aos ="fade-left" className=" border border-[#ff4df3] mb-4 mt-1 " />
-              <Link data-aos ="fade-right" to="/about">
+              <Link onClick={onClose}  data-aos ="fade-right" to="/about">
                 <a
                   className="text-white hover:underline hover:text-[#ff4df3] transition duration-500 "
                   href="/about"
@@ -79,7 +80,7 @@ const SmNavbar = ({onClose}) => {
                 </a>
               </Link>
               <hr data-aos ="fade-left" className=" border border-[#ff4df3] mb-4 mt-1 " />
-              <Link data-aos ="fade-right" to="/contact">
+              <Link onClick={onClose}  data-aos ="fade-right" to="/contact">
                 <a
                   className="text-white hover:underline hover:text-[#ff4df3] transition duration-500 "
                   href="/contact"
