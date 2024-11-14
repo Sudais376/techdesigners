@@ -11,9 +11,9 @@ const Hero = () => {
       <section data-aos="fade-up" className=" py-14 px-6 md:p-24">
         {/* Hero Section, Hero text and Image. */}
 
-        <div className="flex flex-wrap-reverse justify-center gap-8">
+        <div className=" flex flex-wrap-reverse justify-center gap-8">
           {/* Hero text Container  */}
-          <div>
+          <div className="pLeft">
             <p
               data-aos="fade-up"
               className=" inline-block text-[#dd45da] border-b border-[#dd45da] pb-1 text-xl md:text-2xl "
@@ -109,23 +109,25 @@ const Hero = () => {
                 </span>
               </div>
             </div>
-            <div data-aos ="fade-right" className=" py-4">
+            <div data-aos="fade-right" className=" py-4">
               <button className="btn relative overflow-hidden rounded-full text-white text-[15px] font-medium leading-[21px] px-16 py-6 md:py-3 cursor-pointer w-full md:w-auto">
                 <span className="btn-inner relative z-10">Get started</span>
               </button>
             </div>
           </div>
-          <div data-aos="fade-up" className="fade-image">
+
+          <div data-aos="fade-up" className=" rounded-b-[80px] fade-image relative">
             <img
               data-aos="fade-up"
-              className="rounded-b-[80px] rounded-t-xl w-[500px] h-auto object-cover"
+              className=" rounded-b-[80px] rounded-t-xl w-[500px] h-auto object-cover"
               src="/assets/heroImage1.png"
               alt="Hero"
             />
+            <div className="gradient-border"></div>
           </div>
         </div>
 
-        <hr data-aos ="fade-up"  className="text-white mt-4 " />
+        <hr data-aos="fade-up" className="text-white mt-4 " />
       </section>
     </>
   );

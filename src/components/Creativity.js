@@ -1,202 +1,143 @@
-import React from 'react'
+import React from "react";
 
 const Creativity = () => {
   return (
     <>
-    {/* Section for Showcasing Some sample Works  */}
-    <section className=' py-12  '>
+      {/* Section for Showcasing Some sample Works  */}
+      <section className=" py-12  ">
         {/* Heading Container */}
-        <div data-aos ="fade-up" className="max-w-[1000px] mx-auto">
-          <h2 data-aos ="fade-up" className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-12">
+        <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
+          <h2
+            data-aos="fade-up"
+            className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-4"
+          >
             Our Creativity
           </h2>
+          <p className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 ">
+            Our Creativity showcases the depth and diversity of our work—each
+            project crafted with precision, passion, and a focus on excellence.
+            From innovative designs to seamless functionality, explore the
+            creativity that drives our commitment to bringing ideas to life
+          </p>
         </div>
 
         {/* Container to Showcase some example work  */}
 
         <div
           data-aos="fade-up"
-          className=" py-12 flex flex-wrap justify-center gap-28 px-6"
+          className=" py-12 flex flex-wrap justify-center gap-x-16 gap-y-12 px-6"
         >
-          <div data-aos="fade-up" className="Card max-w-[300px]">
+          <div
+            data-aos="fade-up"
+            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+          >
             <div data-aos="fade-up">
               <img
-                
-                className="shadow-md shadow-blue-400 hover:scale-105 transition duration-500 h-[186px] object-cover rounded-md"
+                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
                 src="/assets/shopEase.png"
-                width={300}
+                width={580}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <h4 data-aos="fade-up" className="font-bold text-lg text-center pt-2">
-                ShopEase
-              </h4>
-              
-            </div>
-            <div data-aos="fade-up" className="flex flex-col gap-2 pt-4">
-              <button className=" w-full bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-2 px-6 rounded-md font-bold ">
-                <a
-                  className="flex justify-center gap-4"
-                  href="https://shop-ease-plum.vercel.app/"
-                  target="_blank"
-                >
-                  <img src="/assets/view.png" width={20} alt="" />{" "}
-                  <span>Show Preview</span>
+              <div className="pt-10 pl-8">
+                <p className=" italic font-light text-[20px]">Shop Ease</p>
+              </div>
+              <div className="pt-1 px-8 flex justify-between items-center ">
+                <p className=" italic font-light text-[20px]">
+                  Business / Shopping
+                </p>
+                <a href="https://shop-ease-plum.vercel.app/" target="_blank">
+                  <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
-              </button>
-              <button
-                className="flex justify-center items-center gap-2 bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-1 px-6 rounded-md font-bold "
-              >
-                <img src="/assets/fiverr.png" width={30} alt="" />
-                <span>Build one for yourself!</span>
-              </button>
+              </div>
             </div>
           </div>
-          <div data-aos="fade-up" className="Card max-w-[300px]">
+          <div
+            data-aos="fade-up"
+            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+          >
             <div data-aos="fade-up">
               <img
-                
-                className="shadow-md shadow-blue-400 hover:scale-105 transition duration-500 h-[186px] object-cover rounded-md"
+                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
                 src="/assets/techVibe.png"
-                width={300}
+                width={580}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <h4 data-aos="fade-up" className="font-bold text-lg text-center pt-2">
-                TechVibe
-              </h4>
-              
-            </div>
-            <div data-aos="fade-up" className="flex flex-col gap-2 pt-4">
-              <button className=" w-full bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-2 px-6 rounded-md font-bold ">
-                <a
-                  className="flex justify-center gap-4"
-                  href="https://tech-vibe-iota.vercel.app/"
-                  target="_blank"
-                >
-                  <img src="/assets/view.png" width={20} alt="" />{" "}
-                  <span>Show Preview</span>
+              <div className="pt-10 pl-8">
+                <p className=" italic font-light text-[20px]">Tech Vibe</p>
+              </div>
+              <div className="pt-1 px-8 flex justify-between items-center ">
+                <p className=" italic font-light text-[20px]">
+                  Business / Tech
+                </p>
+                <a href="https://tech-vibe-iota.vercel.app/" target="_blank">
+                  <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
-              </button>
-              <button
-                className="flex justify-center items-center gap-2 bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-1 px-6 rounded-md font-bold "
-              >
-                <img src="/assets/fiverr.png" width={30} alt="" />
-                <span>Build one for yourself!</span>
-              </button>
+              </div>
             </div>
           </div>
-          <div data-aos="fade-up" className="Card max-w-[300px]">
+          <div
+            data-aos="fade-up"
+            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+          >
             <div data-aos="fade-up">
               <img
-                
-                className="shadow-md shadow-blue-400 rounded-md hover:scale-105 transition duration-500"
-                src="/assets/velocitydrive.png"
-                width={300}
+                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
+                src="/assets/velocityDrive.png"
+                width={580}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <h4 data-aos="fade-up" className="font-bold text-lg text-center pt-2">
-                Velocity Drive
-              </h4>
-              
-            </div>
-            <div data-aos="fade-up" className="flex flex-col gap-2 pt-4">
-              <button className=" w-full bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-2 px-6 rounded-md font-bold ">
-                <a
-                  className="flex justify-center gap-4"
-                  href="https://velocity-drive.vercel.app/"
-                  target="_blank"
-                >
-                  <img src="/assets/view.png" width={20} alt="" />{" "}
-                  <span>Show Preview</span>
+              <div className="pt-10 pl-8">
+                <p className=" italic font-light text-[20px]">Velocity Drive</p>
+              </div>
+              <div className="pt-1 px-8 flex justify-between items-center ">
+                <p className=" italic font-light text-[20px]">
+                  Business / Shopping
+                </p>
+                <a href="https://velocity-drive.vercel.app/" target="_blank">
+                  <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
-              </button>
-              <button
-                className="flex justify-center items-center gap-2 bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-1 px-6 rounded-md font-bold "
-              >
-                <img src="/assets/fiverr.png" width={30} alt="" />
-                <span>Build one for yourself!</span>
-              </button>
+              </div>
             </div>
           </div>
-          <div data-aos="fade-up" className="Card max-w-[300px]">
+          <div
+            data-aos="fade-up"
+            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+          >
             <div data-aos="fade-up">
               <img
-                
-                className="shadow-md shadow-blue-400 rounded-md hover:scale-105 transition duration-500 h-[187px]"
-                src="/assets/fooddelight.png"
-                width={300}
+                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
+                src="/assets/foodDelight.png"
+                width={580}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <h4 data-aos="fade-up" className="font-bold text-lg text-center pt-2">
-                Food Delight
-              </h4>
-              
-            </div>
-            <div data-aos="fade-up" className="flex flex-col gap-2 pt-4">
-              <button className=" w-full bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-2 px-6 rounded-md font-bold ">
+              <div className="pt-10 pl-8">
+                <p className=" italic font-light text-[20px]">Food Delight</p>
+              </div>
+              <div className="pt-1 px-8 flex justify-between items-center ">
+                <p className=" italic font-light text-[20px]">
+                  Business / Food
+                </p>
                 <a
-                  className="flex justify-center gap-4"
                   href="https://food-delight-livid.vercel.app/"
                   target="_blank"
                 >
-                  <img src="/assets/view.png" width={20} alt="" />{" "}
-                  <span>Show Preview</span>
+                  <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
-              </button>
-              <button
-                className="flex justify-center items-center gap-2 bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-1 px-6 rounded-md font-bold "
-              >
-                <img src="/assets/fiverr.png" width={30} alt="" />
-                <span>Build one for yourself!</span>
-              </button>
-            </div>
-          </div>
-          <div data-aos="fade-up" className="Card max-w-[300px]">
-            <div data-aos="fade-up">
-              <img
-                
-                className="shadow-md shadow-blue-400 rounded-md hover:scale-105 transition duration-500 h-[187px]"
-                src="/assets/portfolio.png"
-                width={300}
-                alt=""
-              />
-            </div>
-            <div data-aos="fade-up" className="pt-2">
-              <h4 data-aos="fade-up" className="font-bold text-lg text-center pt-2">
-                Creative Hub
-              </h4>
-              
-            </div>
-            <div data-aos="fade-up" className="flex flex-col gap-2 pt-4">
-              <button className=" w-full bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-2 px-6 rounded-md font-bold ">
-                <a
-                  className="flex justify-center gap-4"
-                  href="https://portfolio-five-ecru-21.vercel.app/"
-                  target="_blank"
-                >
-                  <img src="/assets/view.png" width={20} alt="" />{" "}
-                  <span>Show Preview</span>
-                </a>
-              </button>
-              <button
-                className="flex justify-center items-center gap-2 bg-[#1DA1F2] hover:bg-[#FF914D] transition-colors duration-500 text-white py-1 px-6 rounded-md font-bold "
-              >
-                <img src="/assets/fiverr.png" width={30} alt="" />
-                <span>Build one for yourself!</span>
-              </button>
+              </div>
             </div>
           </div>
         </div>
-    </section>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Creativity
+export default Creativity;

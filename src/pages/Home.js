@@ -4,6 +4,8 @@ import Hero from "../components/Hero";
 import Bio from "../components/Bio";
 import ServicesComp from "../components/ServicesComp";
 import Creativity from "../components/Creativity";
+import PackagesComp from "../components/PackagesComp";
+import ContactOut from "../components/ContactOut";
 
 const Home = () => {
   return (
@@ -19,6 +21,10 @@ const Home = () => {
       <Creativity />
 
       <ServicesComp />
+
+      <PackagesComp />
+
+      <ContactOut />
     </>
   );
 };
