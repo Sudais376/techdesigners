@@ -5,7 +5,7 @@ const ContactOut = () => {
   return (
     <>
     {/* Section for Contact  */}
-    <section data-aos ="fade-up" className=" py-12  ">
+    <section data-aos ="fade-up" className=" py-12 px-6 ">
         {/* Heading Container */}
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
           <h2

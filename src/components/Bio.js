@@ -2,21 +2,17 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 
 const Bio = () => {
-  // Use effect to handle Animations on Scroll
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  // State to manage visibility for each bio separately
   const [showBio, setShowBio] = useState({
     sudais: false,
     saad: false,
   });
 
-  // State for modal visibility and selected image source
   const [modalImage, setModalImage] = useState(null);
 
-  // Toggle function for each individual bio
   const handleToggleBio = (name) => {
     setShowBio((prevState) => ({
       ...prevState,
@@ -24,19 +20,16 @@ const Bio = () => {
     }));
   };
 
-  // Function to open modal with selected image
   const openModal = (imageSrc) => {
     setModalImage(imageSrc);
   };
 
-  // Function to close modal
   const closeModal = () => {
     setModalImage(null);
   };
 
   return (
     <>
-      {/* Modal for Lightbox */}
       {modalImage && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
@@ -56,9 +49,7 @@ const Bio = () => {
         </div>
       )}
 
-      {/* Section with Heading and Biographies */}
       <section data-aos="fade-up">
-        {/* Heading Container */}
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
           <h2
             data-aos="fade-up"
@@ -67,7 +58,7 @@ const Bio = () => {
             Who We Are?
           </h2>
         </div>
-        {/* Container with Biographies */}
+
         <div
           data-aos="fade-up"
           className="flex flex-wrap justify-center gap-8 py-12 px-6"
@@ -75,14 +66,11 @@ const Bio = () => {
           {/* Biography for Muhammad Sudais */}
           <div
             data-aos="fade-up"
-            className={`relative py-12 px-6 border-2 border-[#cd52e3] rounded-2xl min-w-[340px] max-w-[340px] bg-gradient-to-br from-[#7e6c9b] to-[#534072] transition-all duration-500 ${
-              showBio.sudais ? "h-auto" : "min-h-[400px]"
-            }`}
+            className={`relative py-12 px-6 border-2 border-[#cd52e3] rounded-2xl min-w-[340px] max-w-[340px] bg-gradient-to-br from-[#7e6c9b] to-[#534072] transition-all duration-500 overflow-hidden ${
+              showBio.sudais ? "max-h-full" : "max-h-[480px]"
+            } flex-shrink-0`}
           >
-            <div
-              data-aos="fade-up"
-              className="flex justify-center items-center"
-            >
+            <div data-aos="fade-up" className="flex justify-center items-center">
               <img
                 className="rounded-full"
                 src="/assets/front end developer.png"
@@ -91,7 +79,7 @@ const Bio = () => {
                 onClick={() => openModal("/assets/front end developer.png")}
               />
             </div>
-            <div data-aos="fade-up">
+            <div data-aos="fade-up ">
               <span className="name flex justify-center items-center text-center pt-4 pb-1 text-2xl">
                 Muhammad Sudais
               </span>
@@ -101,28 +89,17 @@ const Bio = () => {
                 Experienced Front end developer
               </span>
             </div>
-            <div
-              data-aos="fade-up"
-              className="flex justify-center items-center pt-12"
-            >
+            <div data-aos="fade-up" className="flex justify-center items-center pt-4">
               <button
                 onClick={() => handleToggleBio("sudais")}
-                className="btn1 transition ease-out duration-500"
+                className="btn1 transition ease-in duration-500"
               >
                 {showBio.sudais ? "Hide bio" : "See full bio"}
               </button>
             </div>
             {showBio.sudais && (
-              <div data-aos="fade-up" className="bio mt-4">
-                {/* Biography text for Muhammad Sudais */}
-                an experienced web developer with a passion for turning ideas
-                into interactive, high-performing websites. Skilled in both
-                front-end and back-end coding, I specialize in creating
-                responsive, scalable web solutions that enhance user experience
-                and meet business goals. From dynamic features to seamless
-                functionality, I bring expertise and dedication to every
-                project. Let’s build something exceptional together—explore my
-                work or reach out to discuss your vision!.
+              <div data-aos="fade-up" className="bio py-4">
+                an experienced web developer with a passion for turning ideas into interactive, high-performing websites. Skilled in both front-end and back-end coding, I specialize in creating responsive, scalable web solutions that enhance user experience and meet business goals. From dynamic features to seamless functionality, I bring expertise and dedication to every project. Let’s build something exceptional together—explore my work or reach out to discuss your vision!.
               </div>
             )}
           </div>
@@ -130,14 +107,11 @@ const Bio = () => {
           {/* Biography for Muhammad Saad */}
           <div
             data-aos="fade-up"
-            className={`relative py-12 px-6 border-2 border-[#cd52e3] rounded-2xl min-w-[340px] max-w-[340px] bg-gradient-to-br from-[#7e6c9b] to-[#534072] transition-all duration-500 ${
-              showBio.saad ? "h-auto" : "min-h-[400px]"
-            }`}
+            className={`relative pt-12 px-6 border-2 border-[#cd52e3] rounded-2xl min-w-[340px] max-w-[340px] bg-gradient-to-br from-[#7e6c9b] to-[#534072] transition-all duration-500 overflow-hidden ${
+              showBio.saad ? "max-h-full" : "max-h-[480px]"
+            } flex-shrink-0`}
           >
-            <div
-              data-aos="fade-up"
-              className="flex justify-center items-center"
-            >
+            <div data-aos="fade-up" className="flex justify-center items-center">
               <img
                 className="rounded-full"
                 src="/assets/graphic designer.png"
@@ -158,27 +132,17 @@ const Bio = () => {
             >
               Experienced Graphic Designer
             </span>
-            <div
-              data-aos="fade-up"
-              className="flex justify-center items-center pt-12"
-            >
+            <div data-aos="fade-up" className="flex justify-center items-center pt-4">
               <button
                 onClick={() => handleToggleBio("saad")}
-                className="btn1 transition ease-out duration-500"
+                className="btn1 transition ease-in duration-500"
               >
                 {showBio.saad ? "Hide bio" : "See full bio"}
               </button>
             </div>
             {showBio.saad && (
-              <div data-aos="fade-up" className="bio mt-4">
-                {/* Biography text for Muhammad Saad */}a graphic designer with
-                over a year of experience specializing in UI and UX design. I’m
-                passionate about creating visually compelling, user-focused
-                digital experiences that bring brands to life. With a keen eye
-                for detail and a deep understanding of user behavior, I design
-                with purpose, ensuring every interaction is impactful and
-                seamless. Let’s create something remarkable together—explore my
-                portfolio or get in touch to discuss your next project.
+              <div data-aos="fade-up" className="bio py-4">
+                a graphic designer with over a year of experience specializing in UI and UX design. I’m passionate about creating visually compelling, user-focused digital experiences that bring brands to life. With a keen eye for detail and a deep understanding of user behavior, I design with purpose, ensuring every interaction is impactful and seamless. Let’s create something remarkable together—explore my portfolio or get in touch to discuss your next project.
               </div>
             )}
           </div>

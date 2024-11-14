@@ -22,7 +22,7 @@ const Hero = () => {
             </p>
             <span
               data-aos="fade-up"
-              className="block text-3xl md:text-5xl lg:text-7xl font-semibold max-w-[600px] py-4"
+              className="block text-3xl md:text-5xl lg:text-7xl font-semibold max-w-[600px] pt-4 pb-10"
             >
               Bring Your Jouney To <span data-aos="fade-up">&rarr;</span> Next
               Level
@@ -30,7 +30,7 @@ const Hero = () => {
 
             <div
               data-aos="fade-up"
-              className=" flex flex-wrap items-center gap-12 py-4 max-w-[580px] rounded-xl "
+              className=" flex flex-wrap items-center gap-12 pt-4 pb-4 max-w-[580px] rounded-xl "
             >
               <div
                 data-aos="fade-up"
@@ -109,7 +109,7 @@ const Hero = () => {
                 </span>
               </div>
             </div>
-            <div data-aos="fade-right" className=" py-4">
+            <div data-aos="fade-right" className=" pt-8">
               <button className="btn relative overflow-hidden rounded-full text-white text-[15px] font-medium leading-[21px] px-16 py-6 md:py-3 cursor-pointer w-full md:w-auto">
                 <span className="btn-inner relative z-10">Get started</span>
               </button>
@@ -119,7 +119,7 @@ const Hero = () => {
           <div data-aos="fade-up" className=" rounded-b-[80px] fade-image relative">
             <img
               data-aos="fade-up"
-              className=" rounded-b-[80px] rounded-t-xl w-[500px] h-auto object-cover"
+              className=" rounded-b-[80px] rounded-t-xl w-[480px] h-auto object-cover"
               src="/assets/heroImage1.png"
               alt="Hero"
             />

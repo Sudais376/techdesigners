@@ -6,6 +6,7 @@ import ServicesComp from "../components/ServicesComp";
 import Creativity from "../components/Creativity";
 import PackagesComp from "../components/PackagesComp";
 import ContactOut from "../components/ContactOut";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (

@@ -4,7 +4,7 @@ const Creativity = () => {
   return (
     <>
       {/* Section for Showcasing Some sample Works  */}
-      <section className=" py-12  ">
+      <section className=" py-12 px-6 ">
         {/* Heading Container */}
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
           <h2
@@ -29,21 +29,21 @@ const Creativity = () => {
         >
           <div
             data-aos="fade-up"
-            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
                 src="/assets/shopEase.png"
-                width={580}
+                width={480}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <div className="pt-10 pl-8">
+              <div className="pt-10 pl-2">
                 <p className=" italic font-light text-[20px]">Shop Ease</p>
               </div>
-              <div className="pt-1 px-8 flex justify-between items-center ">
+              <div className="pt-1 px-2 flex justify-between items-center ">
                 <p className=" italic font-light text-[20px]">
                   Business / Shopping
                 </p>
@@ -55,21 +55,21 @@ const Creativity = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
                 src="/assets/techVibe.png"
-                width={580}
+                width={480}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <div className="pt-10 pl-8">
+              <div className="pt-10 pl-2">
                 <p className=" italic font-light text-[20px]">Tech Vibe</p>
               </div>
-              <div className="pt-1 px-8 flex justify-between items-center ">
+              <div className="pt-1 px-2 flex justify-between items-center ">
                 <p className=" italic font-light text-[20px]">
                   Business / Tech
                 </p>
@@ -81,21 +81,21 @@ const Creativity = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] max-h-[435px] "
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
                 src="/assets/velocityDrive.png"
-                width={580}
+                width={480}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <div className="pt-10 pl-8">
+              <div className="pt-10 pl-2">
                 <p className=" italic font-light text-[20px]">Velocity Drive</p>
               </div>
-              <div className="pt-1 px-8 flex justify-between items-center ">
+              <div className="pt-1 px-2 flex justify-between items-center ">
                 <p className=" italic font-light text-[20px]">
                   Business / Shopping
                 </p>
@@ -107,21 +107,21 @@ const Creativity = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="Card max-w-[600px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] max-h-[435px] "
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[360px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
                 src="/assets/foodDelight.png"
-                width={580}
+                width={480}
                 alt=""
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <div className="pt-10 pl-8">
+              <div className="pt-10 pl-2">
                 <p className=" italic font-light text-[20px]">Food Delight</p>
               </div>
-              <div className="pt-1 px-8 flex justify-between items-center ">
+              <div className="pt-1 px-2 flex justify-between items-center ">
                 <p className=" italic font-light text-[20px]">
                   Business / Food
                 </p>

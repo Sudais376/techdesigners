@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <>
       <div
-        className="w-[950px] mx-auto bg-gradient-to-r from-[#806d9a] to-[#493763] pt-24 pb-12 px-8 text-white flex flex-col gap-5 rounded-[40px] border-2 border-transparent bg-clip-border 
+        className="w-[80vw] mx-auto bg-gradient-to-r from-[#806d9a] to-[#493763] pt-24 pb-12 px-8 text-white flex flex-col gap-5 rounded-[40px] border-2 border-transparent bg-clip-border 
       shadow-[inset_0_0_0_2px_#e81cff,inset_0_0_0_2px_#40c9ff]"
       >
         <form data-aos ="fade-up"  className="flex flex-col gap-5">
@@ -39,7 +39,7 @@ const ContactForm = () => {
           <div data-aos ="fade-up"  className="flex flex-col gap-1">
             <label
               htmlFor="textarea"
-               data-aos ="fade-up" className="text-[#4d1771] font-semibold text-lg"
+               data-aos ="fade-up" className="text-white font-semibold text-lg"
             >
               How Can We Help You?
             </label>
@@ -56,7 +56,7 @@ const ContactForm = () => {
           {/* Submit Button */}
           <div data-aos ="fade-up">
           <button
-                className=" w-full btn1 transition ease-in duration-500"
+                className=" w-full btn1 !px-0 !m-0 transition ease-in duration-500"
               >
                 Send message
               </button>
