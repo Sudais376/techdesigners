@@ -127,7 +127,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <hr data-aos="fade-up" className="text-white mt-4 " />
+        <hr data-aos="fade-up" className="hline fade-line text-white mt-10" />
       </section>
     </>
   );

@@ -154,6 +154,17 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 
+
+/* CSS for fade-out line effect */
+hr {
+  height: 2px; /* Adjust thickness */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  border: none; /* Remove default hr border */
+  opacity: 1;
+}
+
+
+
 @media (max-width: 1324px) {
   .pLeft {
     padding-left: 115px;

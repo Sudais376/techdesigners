@@ -54,9 +54,9 @@ const ContactForm = () => {
           </div>
 
           {/* Submit Button */}
-          <div data-aos ="fade-up">
+          <div data-aos ="fade-up" className=" flex justify-center items-center ">
           <button
-                className=" w-full btn1 !px-0 !m-0 transition ease-in duration-500"
+                className=" w-[40vw] btn1 !px-0 !m-0 transition ease-in duration-500"
               >
                 Send message
               </button>

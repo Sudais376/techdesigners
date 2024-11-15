@@ -14,10 +14,10 @@ const ServicesComp = () => {
       {/* Section for Our Services  */}
       <section className="py-12">
         {/* Heading Container */}
-        <div data-aos="" className="max-w-[1000px] mx-auto">
+        <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
           <h2
-            data-aos=""
-            className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-12"
+            data-aos="fade-up"
+            className=" relative z-20 max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-12"
           >
             Our Services
           </h2>
@@ -29,7 +29,36 @@ const ServicesComp = () => {
         >
           <div
             data-aos="fade-up"
-            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] max-h-[435px] "
+            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] "
+          >
+            <div data-aos="fade-up">
+              <img
+                className="hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
+                src="/assets/graphicDesigningServices.png"
+                width={480}
+                alt=""
+              />
+            </div>
+            <div data-aos="fade-up" className="pt-2 text-center  ">
+              <div data-aos="fade-up" className=" pt-4 pl-2">
+                <p data-aos="fade-up" className="italic font-light text-[20px]">
+                  Crafting visuals that captivate and inspire.
+                </p>
+              </div>
+              <div
+                data-aos="fade-up"
+                className=" flex justify-center items-center py-4 "
+              >
+                <button className=" flex justify-center items-center px-6 py-2 rounded-lg bg-[#ff00fb] hover:bg-white hover:text-black transition-all duration-1000 ">
+                  Design Services
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-up"
+            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] "
           >
             <div data-aos="fade-up">
               <img
@@ -40,57 +69,20 @@ const ServicesComp = () => {
               />
             </div>
             <div data-aos="fade-up" className="pt-2">
-              <div className="pt-10 pl-2">
-                <p className="italic font-light text-[20px]">
-                  Front End Web Services
+              <div data-aos="fade-up" className="pt-4 text-center ">
+                <p data-aos="fade-up" className="italic font-light text-[20px]">
+                  Building seamless, powerful digital experiences.
                 </p>
               </div>
-              <div className="pt-1 px-2 flex justify-between items-center">
-                <p className="italic font-light text-[20px]">
-                  Professional / Polished
-                </p>
-                <a className="cursor-pointer"
-                  onClick={(e) => {
-                    e.preventDefault(); // Prevent default link behavior
-                    scrollToTopOffset(); // Scroll to top 300px
-                  }}
+              <div
+                data-aos="fade-up"
+                className=" flex justify-center items-center py-4 "
+              >
+                <button
+                  className=" flex justify-center items-center px-6 py-2 rounded-lg bg-[#ff00fb] hover:bg-white hover:text-black transition-all duration-1000 "
                 >
-                  <img src="/assets/linkArrow.svg" width={30} alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] max-h-[435px] "
-          >
-            <div data-aos="fade-up">
-              <img
-                className="hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
-                src="/assets/graphicDesigningServices.png"
-                width={480}
-                alt=""
-              />
-            </div>
-            <div data-aos="fade-up" className="pt-2">
-              <div className=" pt-6 md:pt-10 pl-2">
-                <p className="italic font-light text-[20px]">
-                  Graphic Design & UI/UX Services
-                </p>
-              </div>
-              <div className="pt-1 px-2 flex justify-between items-center">
-                <p className="italic font-light text-[20px]">
-                  Professional / Astonishing
-                </p>
-                <a className="cursor-pointer"
-                  onClick={(e) => {
-                    e.preventDefault(); // Prevent default link behavior
-                    scrollToTopOffset(); // Scroll to top 300px
-                  }}
-                >
-                  <img src="/assets/linkArrow.svg" width={30} alt="" />
-                </a>
+                  Web Solutions
+                </button>
               </div>
             </div>
           </div>

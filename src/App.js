@@ -13,8 +13,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="bg-gradient-to-r from-customPurpleStart to-customPurpleEnd min-h-screen text-white max-w-[2400px] mx-auto">
+      <div className=" relative bg-gradient-to-r from-customPurpleStart to-customPurpleEnd min-h-screen text-white max-w-[2400px] mx-auto">
         {/* Your content goes here */}
+        <div className=" absolute w-full h-full bg-gradient-to-r from-[#26386b] to-[#431953] opacity-60 "></div>
 
         <Router>
           <Navbar />

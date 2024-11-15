@@ -30,11 +30,11 @@ const PackagesComp = () => {
                   For hobbyists creating projects with online presence.
                 </p>
               </div>
-              <div>
+              <div className=" border-b border-white inline ">
                 <span data-aos ="fade-up"  className=" text-4xl font-bold ">$29.99</span>
-                <hr data-aos ="fade-up"  className=" w-28 pb-8  " />
+                
               </div>
-              <div data-aos ="fade-up"  className=" pl-5 ">
+              <div data-aos ="fade-up"  className=" pl-5 pt-4 ">
                 <ul data-aos ="fade-up"  className="list-disc text-lg text-[#dcd5e8] ">
                   <li data-aos ="fade-up" >
                     {" "}
@@ -74,11 +74,10 @@ const PackagesComp = () => {
                   For hobbyists creating projects with online presence.
                 </p>
               </div>
-              <div>
+              <div className=" border-b border-white inline ">
                 <span data-aos ="fade-up"  className=" text-4xl font-bold ">$160.49</span>
-                <hr data-aos ="fade-up"  className=" w-28 pb-8  " />
               </div>
-              <div data-aos ="fade-up"  className=" pl-5 ">
+              <div data-aos ="fade-up"  className=" pl-5 pt-4 ">
                 <ul data-aos ="fade-up"  className="list-disc text-lg text-[#dcd5e8] ">
                   <li data-aos ="fade-up" >
                     {" "}
@@ -118,11 +117,10 @@ const PackagesComp = () => {
                   For hobbyists creating projects with online presence.
                 </p>
               </div>
-              <div>
+              <div className=" border-b border-white inline ">
                 <span data-aos ="fade-up"  className=" text-4xl font-bold ">$270.79</span>
-                <hr data-aos ="fade-up"  className=" w-28 pb-8  " />
               </div>
-              <div data-aos ="fade-up"  className=" pl-5 ">
+              <div data-aos ="fade-up"  className=" pl-5 pt-4 ">
                 <ul data-aos ="fade-up"  className="list-disc text-lg text-[#dcd5e8] ">
                   <li data-aos ="fade-up" >
                     {" "}

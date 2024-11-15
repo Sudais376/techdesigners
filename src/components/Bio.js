@@ -38,7 +38,7 @@ const Bio = () => {
           <img
             src={modalImage}
             alt="Enlarged view"
-            className="rounded-lg max-w-full max-h-full"
+            className="rounded-lg max-w-96 max-h-96"
           />
           <button
             onClick={closeModal}
@@ -49,8 +49,10 @@ const Bio = () => {
         </div>
       )}
 
-      <section data-aos="fade-up">
-        <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
+      <section data-aos="fade-up" className="">
+      <div className=" absolute top-[57%] left-1/2 -translate-x-1/2 -translate-y-1/2 border-4 border-gray-200 rounded-full w-[40vw] h-1/2 opacity-50" />
+
+        <div data-aos="fade-up" className="max-w-[1000px] mx-auto ">
           <h2
             data-aos="fade-up"
             className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-12"
@@ -80,7 +82,7 @@ const Bio = () => {
               />
             </div>
             <div data-aos="fade-up ">
-              <span className="name flex justify-center items-center text-center pt-4 pb-1 text-2xl">
+              <span data-aos ="fade-up" className="name flex justify-center items-center text-center pt-4 pb-1 text-2xl">
                 Muhammad Sudais
               </span>
             </div>
@@ -98,8 +100,8 @@ const Bio = () => {
               </button>
             </div>
             {showBio.sudais && (
-              <div data-aos="fade-up" className="bio py-4">
-                an experienced web developer with a passion for turning ideas into interactive, high-performing websites. Skilled in both front-end and back-end coding, I specialize in creating responsive, scalable web solutions that enhance user experience and meet business goals. From dynamic features to seamless functionality, I bring expertise and dedication to every project. Let’s build something exceptional together—explore my work or reach out to discuss your vision!.
+              <div data-aos="fade-up" className=" bio py-4 text-center ">
+                an experienced web developer with a passion for turning ideas into interactive, high-performing websites. Skilled front-end coding, I specialize in creating responsive, scalable web solutions that enhance user experience and meet business goals. From dynamic features to seamless functionality, I bring expertise and dedication to every project. Let’s build something exceptional together—explore my work or reach out to discuss your vision!.
               </div>
             )}
           </div>
@@ -109,7 +111,7 @@ const Bio = () => {
             data-aos="fade-up"
             className={`relative pt-12 px-6 border-2 border-[#cd52e3] rounded-2xl min-w-[340px] max-w-[340px] bg-gradient-to-br from-[#7e6c9b] to-[#534072] transition-all duration-500 overflow-hidden ${
               showBio.saad ? "max-h-full" : "max-h-[480px]"
-            } flex-shrink-0`}
+            } flex-shrink-0 `}
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
@@ -141,7 +143,7 @@ const Bio = () => {
               </button>
             </div>
             {showBio.saad && (
-              <div data-aos="fade-up" className="bio py-4">
+              <div data-aos="fade-up" className=" bio py-4 text-center ">
                 a graphic designer with over a year of experience specializing in UI and UX design. I’m passionate about creating visually compelling, user-focused digital experiences that bring brands to life. With a keen eye for detail and a deep understanding of user behavior, I design with purpose, ensuring every interaction is impactful and seamless. Let’s create something remarkable together—explore my portfolio or get in touch to discuss your next project.
               </div>
             )}

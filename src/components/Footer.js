@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <>
-      <section className="py-12 bg-[#491b77] max-w-[1800px] mx-auto">
+      <section className=" relative z-20 py-12 bg-[#491b77] max-w-[1800px] mx-auto">
         <div
           data-aos=""
           className="flex flex-col lg:flex-row justify-around items-center gap-2"
