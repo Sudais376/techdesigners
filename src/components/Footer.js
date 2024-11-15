@@ -15,22 +15,33 @@ const Footer = () => {
           data-aos=""
           className="flex flex-col lg:flex-row justify-around items-center gap-2"
         >
-          <div>
-            <div className="flex items-center gap-2 pt-8">
-              <a href="#">
-                <Link to="/">
-                  <img src="/assets/logo.png" width={40} alt="Logo" />
-                </Link>
+           <div className="pt-8 flex flex-col items-end ">
+              <span className=" font-bold self-center text-[#ff4df3] pb-4 ">Design Services</span>
+            <div className=" flex items-center gap-3 py-3">
+                
+              <a href="mailto:personal.sudais376@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20services.% What%Will%be%the%process?" target="_blank"><span className="  hover:text-[#ff4df3] transition duration-500"> personl.sudais376@gmail.com </span> </a>
+              <a href="mailto:personal.sudais376@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20services.% What%Will%be%the%process?" target="_blank">
+                <img src="/assets/gmail.svg" width={40} alt="" />
               </a>
-              <a href="#">
-                <Link to="/">
-                  <span className="text-white text-3xl hover:text-[#ff4df3] transition duration-500">
-                    CodeBloom
-                  </span>
-                </Link>
+              
+              </div>
+              <div className=" flex items-center gap-3 py-3">
+                
+              <a href="https://wa.me/+923335101246" target="_blank"><span className="  hover:text-[#ff4df3] transition duration-500">  +92 333 5101246  </span> </a>
+              <a href="https://wa.me/+923335101246" target="_blank">
+                <img src="/assets/whatsapp.svg" width={40} alt="" />
               </a>
+              
+              </div>
+              <div className=" flex items-center gap-3 py-3">
+                
+              <a href="https://github.com/Sudais376" target="_blank"><span className="  hover:text-[#ff4df3] transition duration-500"> github.com/Sudais376 </span> </a>
+              <a href="https://github.com/Sudais376" target="_blank">
+                <img src="/assets/github.svg" width={40} alt="" />
+              </a>
+              
+              </div>
             </div>
-          </div>
           <div>
             <div className="pt-8">
               <ul className="flex flex-wrap justify-center items-center gap-8 lg:pr-16 px-8 ">
@@ -74,18 +85,28 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="pt-8 flex justify-center items-center gap-6 ">
-              <div className="Whatsapp flex items-center gap-3">
-                <img className="hover:text-[#1DA1f2]" src="/assets/whatsapp.png" width={25} alt="" />
-                
-              </div>
-              <div className="Fiverr flex items-center gap-3 py-3">
-                <img src="/assets/whatsapp.png" width={25} alt="" />
+            <div className="pt-8 flex flex-col  ">
+              <span className=" font-bold text-center text-[#ff4df3] pb-4 ">Web Solutions</span>
+            <div className=" flex items-center gap-3 py-3">
+                <a href="mailto:personal.sudais376@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20services.% What%Will%be%the%process?" target="_blank">
+                <img src="/assets/gmail.svg" width={40} alt="" />
+              </a>
+              <a href="mailto:personal.sudais376@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20services.% What%Will%be%the%process?" target="_blank"><span className="  hover:text-[#ff4df3] transition duration-500"> personl.sudais376@gmail.com </span> </a>
               
               </div>
-              <div className="Github flex items-center gap-3">
-                <img src="/assets/whatsapp.png" width={25} alt="" />
-                
+              <div className=" flex items-center gap-3 py-3">
+                <a href="https://wa.me/+923335101246" target="_blank">
+                <img src="/assets/whatsapp.svg" width={40} alt="" />
+              </a>
+              <a href="https://wa.me/+923335101246" target="_blank"><span className="  hover:text-[#ff4df3] transition duration-500">  +92 333 5101246  </span> </a>
+              
+              </div>
+              <div className=" flex items-center gap-3 py-3">
+                <a href="https://github.com/Sudais376" target="_blank">
+                <img src="/assets/github.svg" width={40} alt="" />
+              </a>
+              <a href="https://github.com/Sudais376" target="_blank"><span className="  hover:text-[#ff4df3] transition duration-500"> github.com/Sudais376 </span> </a>
+              
               </div>
             </div>
           </div>
