@@ -50,7 +50,7 @@ const Bio = () => {
       )}
 
       <section data-aos="fade-up" className="">
-      <div className=" absolute top-[57%] left-1/2 -translate-x-1/2 -translate-y-1/2 border-4 border-gray-200 rounded-full w-[40vw] h-1/2 opacity-50" />
+      
 
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto ">
           <h2
@@ -74,9 +74,9 @@ const Bio = () => {
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
-                className="rounded-full"
+                className="rounded-full border-4 border-white "
                 src="/assets/front end developer.png"
-                width={200}
+                width={150}
                 alt="Image of Muhammad Sudais"
                 onClick={() => openModal("/assets/front end developer.png")}
               />
@@ -115,9 +115,9 @@ const Bio = () => {
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
-                className="rounded-full"
+                className="rounded-full border-4 border-white "
                 src="/assets/graphic designer.png"
-                width={200}
+                width={150}
                 alt="Image of Muhammad Saad"
                 onClick={() => openModal("/assets/graphic designer.png")}
               />

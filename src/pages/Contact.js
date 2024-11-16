@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
+import ContactOut from '../components/ContactOut'
 
 const Contact = () => {
+
+  useEffect (() => {
+    window.scrollTo (0,0);
+  }, []);
+
   return (
     <>
     <Helmet>
         <title> Contact Us | We Design </title>
     </Helmet>
-    <div>
-        This is Contact Us page
-    </div>
+    
+    <ContactOut />
     </>
   )
 }

@@ -14,11 +14,17 @@ const Hero = () => {
         <div className=" flex flex-wrap-reverse justify-center gap-8">
           {/* Hero text Container  */}
           <div className="pLeft">
+            
             <p
               data-aos="fade-up"
               className=" inline-block text-[#dd45da] border-b border-[#dd45da] pb-1 text-xl md:text-2xl "
             >
               Our Design Talks!
+              {/* Subtle background glow with stronger shine on the right side */}
+            <div
+            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/100 via-[#cf3ec7]/100 to-transparent 
+            blur-2xl opacity-100 rounded-full mix-blend-screen w-64 h-12 -top-2 -left-8 "
+            ></div>
             </p>
             <span
               data-aos="fade-up"
@@ -109,25 +115,46 @@ const Hero = () => {
                 </span>
               </div>
             </div>
-            <div data-aos="fade-right" className=" pt-8">
-              <button className="btn relative overflow-hidden rounded-full text-white text-[15px] font-medium leading-[21px] px-16 py-6 md:py-3 cursor-pointer w-full md:w-auto">
+            <div className="pt-2">
+              <button className=" bg-[#00cfe9] px-20 py-6 text-black rounded-2xl text-xl ">
                 <span className="btn-inner relative z-10">Get started</span>
               </button>
             </div>
           </div>
 
-          <div data-aos="fade-up" className=" rounded-b-[80px] fade-image relative">
+          <div
+            data-aos="fade-up"
+            className="rounded-b-[80px] fade-image relative pt-2 "
+          >
+            {/* Subtle background glow with stronger shine on the left side */}
+            <div
+              className="absolute inset-0 bg-gradient-to-tl from-[#7cbee4]/100 via-[#7cbee4]/100 to-transparent 
+                blur-2xl opacity-90 rounded-full mix-blend-screen w-48 h-48 top-36
+                "
+            ></div>
+
+            {/* Subtle background glow with stronger shine on the right side */}
+            <div
+            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/100 via-[#cf3ec7]/100 to-transparent 
+            blur-2xl opacity-90 rounded-full mix-blend-screen w-48 h-48 top-28 right-4  "
+            ></div>
+
+            
+
+            {/* Main Image */}
             <img
               data-aos="fade-up"
-              className=" rounded-b-[80px] rounded-t-xl w-[480px] h-auto object-cover"
+              className="rounded-b-[80px] rounded-t-xl w-[480px] h-auto object-cover "
               src="/assets/heroImage1.png"
               alt="Hero"
             />
+
+            {/* Gradient Border */}
             <div className="gradient-border"></div>
           </div>
         </div>
 
-        <hr data-aos="fade-up" className="hline fade-line text-white mt-10" />
+        <hr data-aos="fade-up" className="hline fade-line text-white mt-10 " />
       </section>
     </>
   );

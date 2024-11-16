@@ -5,111 +5,24 @@
 
 
 body {
-    font-family: "Baloo 2", sans-serif;
+  font-family: "Baloo 2", sans-serif;
+  --selectionColor: rgb(255, 89, 227); /*Your custom pink */
 }
-  
+
+/* Custom selection color */
+::selection {
+background-color: var(--selectionColor); /* Referencing the variable */
+color: white; /* Text color for contrast */
+}
+
+
+
+
 .fade-image {
     position: relative;
     display: inline-block;
     overflow: hidden;
   }
-  
-  
-  
-
-  @layer utilities {
-    .btn {
-      /* Gradient background */
-      background-image: linear-gradient(
-        to bottom,
-        #8d49fd 0%,
-        #7f56f3 50%,
-        #5691f3 100%
-      );
-      /* Shadows */
-      box-shadow: 
-        0px 4px 12px rgba(9, 12, 60, 0.15),
-        0px 2px 8px rgba(9, 12, 60, 0.15),
-        0px 1px 3px rgba(9, 12, 60, 0.1),
-        inset 0px 1px 1px rgba(233, 209, 255, 0.2),
-        inset 0px -1px 3px rgba(137, 222, 246, 0.3);
-    }
-  
-    /* Shine effect */
-    .btn::before {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: -3px;
-      transform: translateX(-50%);
-      width: 96px;
-      height: 6px;
-      background-color: #e9d1ff;
-      opacity: 0.6;
-      filter: blur(6px);
-      border-radius: inherit;
-      transition: opacity 0.25s;
-    }
-  
-    /* Shine overlay */
-    .btn::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-size: cover;
-      opacity: 0.3;
-      mix-blend-mode: overlay;
-      pointer-events: none;
-      z-index: 1;
-    }
-  
-    .btn-inner {
-      padding: 12px 24px;
-      border-radius: inherit;
-      background-image: linear-gradient(to bottom, #e9d1ff, transparent 8px);
-      background-position: 0 -6px;
-      background-repeat: no-repeat;
-    }
-  
-    .btn-inner::before,
-    .btn-inner::after {
-      content: '';
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: #adfff9;
-      transition: opacity 0.25s, transform 0.25s;
-      border-radius: 50%;
-      z-index: -1;
-    }
-  
-    .btn-inner::before {
-      width: 92px;
-      height: 8px;
-      bottom: -4px;
-      opacity: 0.75;
-      filter: blur(6px);
-    }
-  
-    .btn-inner::after {
-      width: 112px;
-      height: 1px;
-      bottom: 0;
-      opacity: 0.9;
-      filter: blur(1px);
-    }
-  
-    .btn:hover .btn-inner::before {
-      opacity: 0.8;
-      transform: translateX(-50%) scale(1.25);
-    }
-  
-    .btn:hover .btn-inner::after {
-      opacity: 1;
-    }
-  }
-  
-
 
   @layer utilities {
   .btn1 {
@@ -158,10 +71,11 @@ body {
 /* CSS for fade-out line effect */
 hr {
   height: 2px; /* Adjust thickness */
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
   border: none; /* Remove default hr border */
   opacity: 1;
 }
+
 
 
 
