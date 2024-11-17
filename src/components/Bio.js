@@ -55,7 +55,7 @@ const Bio = () => {
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto ">
           <h2
             data-aos="fade-up"
-            className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-12"
+            className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-6 md:pb-12"
           >
             Who We Are?
           </h2>
@@ -63,7 +63,7 @@ const Bio = () => {
 
         <div
           data-aos="fade-up"
-          className="flex flex-wrap justify-center gap-8 py-12 px-6"
+          className="flex flex-wrap justify-center gap-8 py-12 px-4"
         >
           {/* Biography for Muhammad Sudais */}
           <div

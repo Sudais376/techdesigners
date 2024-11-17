@@ -28,7 +28,7 @@ const ServicesComp = () => {
 
         <div
           data-aos="fade-up"
-          className="py-12 flex flex-wrap justify-center gap-x-16 gap-y-12 px-6"
+          className="md:py-12 flex flex-wrap justify-center gap-x-16 gap-y-12 px-8"
         >
           {/* Graphic Services */}
           <div

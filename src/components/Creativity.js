@@ -4,7 +4,7 @@ const Creativity = () => {
   return (
     <>
       {/* Section for Showcasing Some sample Works  */}
-      <section className=" py-12 px-6 ">
+      <section className=" pt-12 px-8 ">
         {/* Heading Container */}
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
           <h2
@@ -13,7 +13,7 @@ const Creativity = () => {
           >
             Our Creativity
           </h2>
-          <p className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 ">
+          <p className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 pl-1 ">
             Our Creativity showcases the depth and diversity of our work—each
             project crafted with precision, passion, and a focus on excellence.
             From innovative designs to seamless functionality, explore the
@@ -25,7 +25,7 @@ const Creativity = () => {
 
         <div
           data-aos="fade-up"
-          className=" py-12 flex flex-wrap justify-center gap-x-16 gap-y-12 px-6"
+          className=" py-12 flex flex-wrap justify-center gap-x-16 gap-y-12 "
         >
           <div
             data-aos="fade-up"

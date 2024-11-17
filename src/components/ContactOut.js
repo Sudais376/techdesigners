@@ -5,7 +5,7 @@ const ContactOut = () => {
   return (
     <>
     {/* Section for Contact  */}
-    <section data-aos ="fade-up" className=" py-12 px-6 ">
+    <section data-aos ="fade-up" className=" py-12 px-8 ">
         {/* Heading Container */}
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
           <h2
@@ -14,7 +14,7 @@ const ContactOut = () => {
           >
             Contact Out
           </h2>
-          <p data-aos ="fade-up" className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 ">
+          <p data-aos ="fade-up" className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 pl-1 ">
           Ready to bring your ideas to life? Get in touch with us! We’re here to discuss your vision,
           answer any questions, and explore how we can work together to create something exceptional
           </p>

@@ -40,7 +40,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div data-aos ="fade-up" className="w-[80vw] mx-auto bg-gradient-to-r from-[#806d9a] to-[#493763] pt-24 pb-12 px-8 text-white flex flex-col gap-5 rounded-[40px] border-2 border-transparent bg-clip-border shadow-[inset_0_0_0_2px_#e81cff,inset_0_0_0_2px_#40c9ff]">
+      <div data-aos ="fade-up" className=" md:w-[80vw] mx-auto bg-gradient-to-r from-[#806d9a] to-[#493763] pt-24 pb-12 px-8 text-white flex flex-col gap-5 rounded-[40px] border-2 border-transparent bg-clip-border shadow-[inset_0_0_0_2px_#e81cff,inset_0_0_0_2px_#40c9ff]">
         <form
           ref={form}
           onSubmit={handleSubmit} // Form submission handler

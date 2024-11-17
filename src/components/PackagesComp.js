@@ -4,7 +4,7 @@ const PackagesComp = () => {
   return (
     <>
       {/* Section for Offering Packages  */}
-      <section data-aos ="fade-up" className=" py-12 px-6  ">
+      <section data-aos ="fade-up" className=" py-12 px-8  ">
         {/* Heading Container */}
         <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
           <h2
@@ -13,7 +13,7 @@ const PackagesComp = () => {
           >
             Packages
           </h2>
-          <p data-aos ="fade-up" className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 ">
+          <p data-aos ="fade-up" className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 pl-1 ">
             Our Packages are tailored to meet your unique needs—whether you’re
             looking for a streamlined solution or a feature-rich experience.
             Each package is crafted to deliver value, creativity, and

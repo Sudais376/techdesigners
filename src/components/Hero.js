@@ -8,23 +8,22 @@ const Hero = () => {
 
   return (
     <>
-      <section data-aos="fade-up" className=" py-14 px-6 md:p-24">
+      <section data-aos="fade-up" className=" py-14 px-10 md:p-24">
         {/* Hero Section, Hero text and Image. */}
 
         <div className=" flex flex-wrap-reverse justify-center gap-8">
           {/* Hero text Container  */}
           <div className="pLeft">
-            
             <p
               data-aos="fade-up"
               className=" inline-block text-[#dd45da] border-b border-[#dd45da] pb-1 text-xl md:text-2xl "
             >
               Our Design Talks!
               {/* Subtle background glow with stronger shine on the right side */}
-            <div
-            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
+              <div
+                className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
             blur-2xl opacity-100 rounded-full mix-blend-screen w-64 h-12 -top-2 -left-8 "
-            ></div>
+              ></div>
             </p>
             <span
               data-aos="fade-up"
@@ -34,19 +33,9 @@ const Hero = () => {
               Level
             </span>
 
-
-
-
-
-
-
-
-
-
-
             <div
               data-aos="fade-up"
-              className=" flex flex-wrap items-center gap-12 pb-8 max-w-[500px] rounded-xl "
+              className=" flex flex-wrap items-center gap-12 pb-8  max-w-[500px] rounded-xl "
             >
               <div
                 data-aos="fade-up"
@@ -82,9 +71,7 @@ const Hero = () => {
                     alt=""
                   />
                 </button>
-                <span className="font-semibold ">
-                  We work with trend
-                </span>
+                <span className="font-semibold ">We work with trend</span>
               </div>
               <div
                 data-aos="fade-up"
@@ -126,29 +113,14 @@ const Hero = () => {
               </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <a href="#Bio">
-            <div className="pt-2">
-              <button className=" bg-[#00cfe9] px-10 py-4 text-black rounded-2xl text-xl ">
-                <span className="btn-inner relative z-10 text-xl font-bold">Scroll down</span>
-              </button>
-            </div>
+              <div className="pt-2">
+                <button className=" bg-[#00cfe9] px-10 py-4 text-black rounded-2xl text-xl ">
+                  <span className="btn-inner relative z-10 text-xl font-bold">
+                    Scroll down
+                  </span>
+                </button>
+              </div>
             </a>
           </div>
 
@@ -165,11 +137,9 @@ const Hero = () => {
 
             {/* Subtle background glow with stronger shine on the right side */}
             <div
-            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
+              className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
             blur-2xl opacity-90 rounded-full mix-blend-screen w-48 h-48 top-28 right-4  "
             ></div>
-
-            
 
             {/* Main Image */}
             <img
