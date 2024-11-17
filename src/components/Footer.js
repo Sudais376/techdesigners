@@ -26,7 +26,7 @@ const Footer = () => {
               </Link>
             </div>
           <div>
-            <div className="pt-6 lg:pt-16 pb-2 lg:pb-0 ">
+            <div className=" lg:pl-32 pt-6 lg:pt-16 pb-2 lg:pb-0 ">
               <ul className="flex flex-wrap justify-center items-center gap-8 lg:pr-16 px-8 ">
                 <Link
                   to="/"
@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className=" pt-2 lg:pt-8 flex flex-col  ">
+            <div className=" pt-2 lg:pt-14 flex flex-col  ">
              
               <div className=" flex justify-center items-center gap-8 py-4 ">
                 <a
