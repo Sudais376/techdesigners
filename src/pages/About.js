@@ -1,17 +1,23 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
+import AboutComponent from '../components/AboutComp';
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, []);
+
   return (
     <>
-    <Helmet>
+      <Helmet>
         <title> About Us | We Design </title>
-    </Helmet>
-    <div>
-        This is About us Page
-    </div>
+      </Helmet>
+      <AboutComponent />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

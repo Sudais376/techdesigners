@@ -10,53 +10,23 @@ const Footer = () => {
 
   return (
     <>
-      <section className=" relative z-20 py-12 bg-[#491b77] max-w-[1800px] mx-auto px-6">
+      <section className=" relative z-20 pb-12 bg-[#491b77] max-w-[1800px] mx-auto px-6">
         <div
-          data-aos=""
           className="flex flex-col lg:flex-row justify-around items-center gap-2"
         >
-           <div className=" border-b border-white lg:border-b-0 ">
-            <div className=" pt-2 lg:pt-8 flex flex-col  ">
-              <div>
-                <span className=" font-bold text-[#ff4df3] pb-4 ">
-                  Design Services
-                </span>
-              </div>
-              <div className=" flex justify-center items-center gap-8 py-4 ">
-                <a
-                  href="mailto:personal.sudais376@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20services.% What%Will%be%the%process?"
-                  target="_blank"
-                >
-                  <img
-                    
-                    src="/assets/gmail.svg"
-                    width={50}
-                    alt=""
-                  />
-                </a>
-
-                <a href="https://wa.me/+923335101246" target="_blank">
-                  <img
-                    
-                    src="/assets/whatsapp.svg"
-                    width={40}
-                    alt=""
-                  />
-                </a>
-
-                <a href="https://github.com/Sudais376" target="_blank">
-                  <img
-                    src="/assets/github.svg"
-                    width={40}
-                    alt=""
-                  />
-                </a>
-              </div>
+           {/* Logo */}
+           <div className=" flex justify-center items-center pt-14 ">
+              <Link to="/">
+                <img
+                  className="hover:scale-105 transition duration-500"
+                  src="/assets/logo.png"
+                  width={40}
+                  alt="Brand Logo"
+                />
+              </Link>
             </div>
-          </div>
-
           <div>
-            <div className="pt-8 lg:pt-16 pb-8 lg:pb-0 ">
+            <div className="pt-6 lg:pt-16 pb-2 lg:pb-0 ">
               <ul className="flex flex-wrap justify-center items-center gap-8 lg:pr-16 px-8 ">
                 <Link
                   to="/"
@@ -97,42 +67,23 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className=" border-t border-white lg:border-t-0 ">
+          <div>
             <div className=" pt-2 lg:pt-8 flex flex-col  ">
-              <div>
-                <span className=" font-bold text-[#ff4df3] pb-4 ">
-                  Web Solutions
-                </span>
-              </div>
+             
               <div className=" flex justify-center items-center gap-8 py-4 ">
                 <a
                   href="mailto:personal.sudais376@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20services.% What%Will%be%the%process?"
                   target="_blank"
                 >
-                  <img
-                    
-                    src="/assets/gmail.svg"
-                    width={50}
-                    alt=""
-                  />
+                  <img src="/assets/gmail.svg" width={50} alt="" />
                 </a>
 
                 <a href="https://wa.me/+923335101246" target="_blank">
-                  <img
-                    
-                    src="/assets/whatsapp.svg"
-                    width={40}
-                    alt=""
-                  />
+                  <img src="/assets/whatsapp.svg" width={40} alt="" />
                 </a>
 
                 <a href="https://github.com/Sudais376" target="_blank">
-                  <img
-                    
-                    src="/assets/github.svg"
-                    width={40}
-                    alt=""
-                  />
+                  <img src="/assets/github.svg" width={40} alt="" />
                 </a>
               </div>
             </div>

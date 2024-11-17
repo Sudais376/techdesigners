@@ -99,16 +99,18 @@ const ContactForm = () => {
           onClick={hidePopup} // Close popup on overlay click
         >
           <div
-            className=" bg-gradient-to-r from-[#302e69] to-[#35154b] p-6 rounded-lg shadow-lg w-[90%] max-w-[500px]"
+            className=" flex flex-col justify-center items-center bg-gradient-to-r from-[#302e69] to-[#35154b] p-6 rounded-lg shadow-lg w-[90%] max-w-[500px]"
             onClick={(e) => e.stopPropagation()} // Prevent click propagation
           >
             <Thanks /> {/* Render the Thanks component */}
+            <div className=" max-w-[150px] mx-auto ">
             <button
               onClick={hidePopup} // Close popup on button click
               className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700"
             >
               Close
             </button>
+            </div>
           </div>
         </div>
       )}

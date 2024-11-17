@@ -22,25 +22,35 @@ const Hero = () => {
               Our Design Talks!
               {/* Subtle background glow with stronger shine on the right side */}
             <div
-            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/100 via-[#cf3ec7]/100 to-transparent 
+            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
             blur-2xl opacity-100 rounded-full mix-blend-screen w-64 h-12 -top-2 -left-8 "
             ></div>
             </p>
             <span
               data-aos="fade-up"
-              className="block text-3xl md:text-5xl lg:text-7xl font-semibold max-w-[600px] pt-4 pb-10"
+              className="block text-3xl md:text-5xl lg:text-7xl font-semibold max-w-[600px] pt-4 pb-6"
             >
               Bring Your Jouney To <span data-aos="fade-up">&rarr;</span> Next
               Level
             </span>
 
+
+
+
+
+
+
+
+
+
+
             <div
               data-aos="fade-up"
-              className=" flex flex-wrap items-center gap-12 pt-4 pb-4 max-w-[580px] rounded-xl "
+              className=" flex flex-wrap items-center gap-12 pb-8 max-w-[500px] rounded-xl "
             >
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-4 min-w-[242px] "
+                className="flex items-center gap-3 min-w-[220px] "
               >
                 <button
                   data-aos="fade-up"
@@ -49,17 +59,17 @@ const Hero = () => {
                   <img
                     data-aos="fade-up"
                     src="/assets/pin.svg"
-                    width={40}
+                    width={25}
                     alt=""
                   />
                 </button>
-                <span data-aos="fade-up" className="font-semibold text-lg">
+                <span data-aos="fade-up" className="font-semibold ">
                   Years of experiennce
                 </span>
               </div>
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-4 min-w-[242px]"
+                className="flex items-center gap-3 min-w-[220px]"
               >
                 <button
                   data-aos="fade-up"
@@ -68,17 +78,17 @@ const Hero = () => {
                   <img
                     data-aos="fade-up"
                     src="/assets/radio.svg"
-                    width={40}
+                    width={25}
                     alt=""
                   />
                 </button>
-                <span className="font-semibold text-lg">
+                <span className="font-semibold ">
                   We work with trend
                 </span>
               </div>
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-4 min-w-[242px]"
+                className="flex items-center gap-3 min-w-[220px]"
               >
                 <button
                   data-aos="fade-up"
@@ -87,17 +97,17 @@ const Hero = () => {
                   <img
                     data-aos="fade-up"
                     src="/assets/people.svg"
-                    width={40}
+                    width={25}
                     alt=""
                   />
                 </button>
-                <span data-aos="fade-up" className="font-semibold text-lg">
+                <span data-aos="fade-up" className="font-semibold ">
                   100% Satisfaction
                 </span>
               </div>
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-4 min-w-[242px]"
+                className="flex items-center gap-3 min-w-[220px]"
               >
                 <button
                   data-aos="fade-up"
@@ -106,20 +116,40 @@ const Hero = () => {
                   <img
                     data-aos="fade-up"
                     src="/assets/starbox.svg"
-                    width={40}
+                    width={25}
                     alt=""
                   />
                 </button>
-                <span data-aos="fade-up" className="font-semibold text-lg">
+                <span data-aos="fade-up" className="font-semibold ">
                   Professional services
                 </span>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <a href="#Bio">
             <div className="pt-2">
-              <button className=" bg-[#00cfe9] px-20 py-6 text-black rounded-2xl text-xl ">
-                <span className="btn-inner relative z-10">Get started</span>
+              <button className=" bg-[#00cfe9] px-10 py-4 text-black rounded-2xl text-xl ">
+                <span className="btn-inner relative z-10 text-xl font-bold">Scroll down</span>
               </button>
             </div>
+            </a>
           </div>
 
           <div
@@ -128,14 +158,14 @@ const Hero = () => {
           >
             {/* Subtle background glow with stronger shine on the left side */}
             <div
-              className="absolute inset-0 bg-gradient-to-tl from-[#7cbee4]/100 via-[#7cbee4]/100 to-transparent 
+              className="absolute inset-0 bg-gradient-to-tl from-[#7cbee4]/60 via-[#7cbee4]/20 to-transparent 
                 blur-2xl opacity-90 rounded-full mix-blend-screen w-48 h-48 top-36
                 "
             ></div>
 
             {/* Subtle background glow with stronger shine on the right side */}
             <div
-            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/100 via-[#cf3ec7]/100 to-transparent 
+            className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
             blur-2xl opacity-90 rounded-full mix-blend-screen w-48 h-48 top-28 right-4  "
             ></div>
 
@@ -144,7 +174,7 @@ const Hero = () => {
             {/* Main Image */}
             <img
               data-aos="fade-up"
-              className="rounded-b-[80px] rounded-t-xl w-[480px] h-auto object-cover "
+              className="rounded-b-[80px] rounded-t-xl w-[435px] h-auto object-cover "
               src="/assets/heroImage1.png"
               alt="Hero"
             />
@@ -154,7 +184,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <hr data-aos="fade-up" className="hline fade-line text-white mt-10 " />
+        <hr id="Bio" className="hline fade-line text-white mt-10 " />
       </section>
     </>
   );

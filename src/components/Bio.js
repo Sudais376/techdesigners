@@ -74,7 +74,7 @@ const Bio = () => {
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
-                className="rounded-full border-4 border-white "
+                className="rounded-full border-2 border-white "
                 src="/assets/front end developer.png"
                 width={150}
                 alt="Image of Muhammad Sudais"
@@ -87,7 +87,7 @@ const Bio = () => {
               </span>
             </div>
             <div data-aos="fade-up">
-              <span className="flex justify-center items-center text-xl">
+              <span className="flex justify-center items-center text-center text-xl">
                 Experienced Front end developer
               </span>
             </div>
@@ -115,7 +115,7 @@ const Bio = () => {
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
-                className="rounded-full border-4 border-white "
+                className="rounded-full border-2 border-white "
                 src="/assets/graphic designer.png"
                 width={150}
                 alt="Image of Muhammad Saad"
@@ -130,7 +130,7 @@ const Bio = () => {
             </span>
             <span
               data-aos="fade-up"
-              className="flex justify-center items-center text-xl"
+              className="flex justify-center items-center text-center text-xl"
             >
               Experienced Graphic Designer
             </span>
