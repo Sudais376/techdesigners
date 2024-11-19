@@ -6,14 +6,14 @@ const Creativity = () => {
       {/* Section for Showcasing Some sample Works  */}
       <section className=" pt-12 px-8 ">
         {/* Heading Container */}
-        <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
+        <div data-aos="fade-up" className="max-w-thousand mx-auto">
           <h2
             data-aos="fade-up"
-            className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-4"
+            className="max-w-8H mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-4"
           >
             Our Creativity
           </h2>
-          <p className=" max-w-[800px] mx-auto md:text-center text-lg pb-12 pl-1 ">
+          <p className=" max-w-8H mx-auto md:text-center text-lg pb-12 pl-1 ">
             Our Creativity showcases the depth and diversity of our work—each
             project crafted with precision, passion, and a focus on excellence.
             From innovative designs to seamless functionality, explore the
@@ -29,11 +29,11 @@ const Creativity = () => {
         >
           <div
             data-aos="fade-up"
-            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder"
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
                 src="/assets/shopEase.png"
                 width={480}
                 alt=""
@@ -41,13 +41,13 @@ const Creativity = () => {
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">
-                <p className=" italic font-light text-[20px]">Shop Ease</p>
+                <p className=" italic font-light text-xl">Shop Ease</p>
               </div>
               <div className="pt-1 px-2 flex justify-between items-center ">
-                <p className=" italic font-light text-[20px]">
+                <p className=" italic font-light text-xl">
                   Business / Shopping
                 </p>
-                <a href="https://shop-ease-plum.vercel.app/" target="_blank">
+                <a href="https://shop-ease-plum.vercel.app/" target="_blank" rel="noreferrer">
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
               </div>
@@ -55,11 +55,11 @@ const Creativity = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f]"
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder"
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
                 src="/assets/techVibe.png"
                 width={480}
                 alt=""
@@ -67,13 +67,13 @@ const Creativity = () => {
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">
-                <p className=" italic font-light text-[20px]">Tech Vibe</p>
+                <p className=" italic font-light text-xl">Tech Vibe</p>
               </div>
               <div className="pt-1 px-2 flex justify-between items-center ">
-                <p className=" italic font-light text-[20px]">
+                <p className=" italic font-light text-xl">
                   Business / Tech
                 </p>
-                <a href="https://tech-vibe-iota.vercel.app/" target="_blank">
+                <a href="https://tech-vibe-iota.vercel.app/" target="_blank" rel="noreferrer">
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
               </div>
@@ -81,11 +81,11 @@ const Creativity = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] max-h-[435px] "
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder max-h-435 "
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
                 src="/assets/velocityDrive.png"
                 width={480}
                 alt=""
@@ -93,13 +93,13 @@ const Creativity = () => {
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">
-                <p className=" italic font-light text-[20px]">Velocity Drive</p>
+                <p className=" italic font-light text-xl">Velocity Drive</p>
               </div>
               <div className="pt-1 px-2 flex justify-between items-center ">
-                <p className=" italic font-light text-[20px]">
+                <p className=" italic font-light text-xl">
                   Business / Shopping
                 </p>
-                <a href="https://velocity-drive.vercel.app/" target="_blank">
+                <a href="https://velocity-drive.vercel.app/" target="_blank" rel="noreferrer">
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
               </div>
@@ -107,11 +107,11 @@ const Creativity = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="Card max-w-[500px] bg-gradient-to-r from-[#715e91] to-[#4a336b] overflow-hidden p-1 rounded-2xl border-4 border-[#8f3b9f] max-h-[435px] "
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder max-h-435 "
           >
             <div data-aos="fade-up">
               <img
-                className=" hover:scale-105 transition duration-500 h-[300px] object-cover rounded-xl"
+                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
                 src="/assets/foodDelight.png"
                 width={480}
                 alt=""
@@ -119,15 +119,15 @@ const Creativity = () => {
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">
-                <p className=" italic font-light text-[20px]">Food Delight</p>
+                <p className=" italic font-light text-xl">Food Delight</p>
               </div>
               <div className="pt-1 px-2 flex justify-between items-center ">
-                <p className=" italic font-light text-[20px]">
+                <p className=" italic font-light text-xl">
                   Business / Food
                 </p>
                 <a
                   href="https://food-delight-livid.vercel.app/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>

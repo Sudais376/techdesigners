@@ -3,7 +3,7 @@ import React from "react";
 const AboutComponent = () => {
   return (
     <>
-      <div data-aos="fade-up" className=" max-w-[1000px] mx-auto pt-12 md:pt-24 px-6 ">
+      <div data-aos="fade-up" className=" max-w-thousand mx-auto pt-12 md:pt-24 px-6 ">
         <div data-aos="fade-up" className="">
           <h2
             data-aos="fade-up"
@@ -12,9 +12,9 @@ const AboutComponent = () => {
             Designing Experiences, Building
             <br />
             <span className="flex items-center justify-center gap-4">
-              <span className="w-1/4 h-[2px] bg-gray-400"></span>
+              <span className="w-1/4 h-lineH bg-gray-400"></span>
               <span>Solutions</span>
-              <span className="w-1/4 h-[2px] bg-gray-400"></span>
+              <span className="w-1/4 h-lineH bg-gray-400"></span>
             </span>
           </h2>
 
@@ -25,7 +25,7 @@ const AboutComponent = () => {
             technology to meet your needs.
           </p>
         </div>
-        <div data-aos="fade-up" className="max-w-[1000px] mx-auto py-4 md:py-8">
+        <div data-aos="fade-up" className="max-w-thousand mx-auto py-4 md:py-8">
           <p data-aos="fade-up" className="md:text-center px-6 md:text-2xl">
             Our Graphic Design services focus on crafting intuitive UI and
             engaging UX that not only look stunning but also elevate user
@@ -35,11 +35,11 @@ const AboutComponent = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="max-w-[1000px] mx-auto content-centert"
+          className="max-w-thousand mx-auto content-centert"
         >
           <div
             data-aos="fade-up"
-            className="max-w-[1000px] mx-auto pb-6 md:pb-12"
+            className="max-w-thousand mx-auto pb-6 md:pb-12"
           >
             <p data-aos="fade-up" className="md:text-center md:text-2xl px-6">
               Through our Web Development expertise, we build responsive,
@@ -57,13 +57,13 @@ const AboutComponent = () => {
             </p>
             <p
               data-aos="fade-up"
-              className=" max-w-[700px] mx-auto md:text-center md:text-2xl italic font-bold px-6 pt-4 md:pt-12"
+              className=" max-w-7H mx-auto md:text-center md:text-2xl italic font-bold px-6 pt-4 md:pt-12"
             >
               "Great design is not just what it looks like, but how it works."
             </p>
             <div
               data-aos="fade-up"
-              className=" flex justify-end max-w-[700px] mx-auto "
+              className=" flex justify-end max-w-7H mx-auto "
             >
               <span className=" px-4">_ Steve Jobs</span>
             </div>

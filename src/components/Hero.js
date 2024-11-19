@@ -16,34 +16,34 @@ const Hero = () => {
           <div className="pLeft">
             <p
               data-aos="fade-up"
-              className=" inline-block text-[#dd45da] border-b border-[#dd45da] pb-1 text-xl md:text-2xl "
+              className=" inline-block text-heroFirst border-b border-heroFirst pb-1 text-xl md:text-2xl "
             >
               Our Design Talks!
               {/* Subtle background glow with stronger shine on the right side */}
               <div
-                className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
+                className=" absolute bg-gradient-to-tr from-heroFirstShadow/60 via-heroFirstShadow/20 to-transparent 
             blur-2xl opacity-100 rounded-full mix-blend-screen w-64 h-12 -top-2 -left-8 "
               ></div>
             </p>
             <span
               data-aos="fade-up"
-              className="block text-3xl md:text-5xl lg:text-7xl font-semibold max-w-[600px] pt-4 pb-6"
+              className="block text-3xl md:text-4xl lg:text-6xl font-semibold max-w-550 pt-4 pb-6"
             >
-              Bring Your Jouney To <span data-aos="fade-up">&rarr;</span> Next
+              Bring Your Journey To <span data-aos="fade-up">&rarr;</span> Next
               Level
             </span>
 
             <div
               data-aos="fade-up"
-              className=" flex flex-wrap items-center gap-12 pb-8  max-w-[500px] rounded-xl "
+              className=" flex flex-wrap items-center gap-12 pb-8  max-w-500 rounded-xl "
             >
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-3 min-w-[220px] "
+                className="flex items-center gap-3 min-w-220 "
               >
                 <button
                   data-aos="fade-up"
-                  className="bg-[#f53fa1] p-2 pr-[10px] rounded-md"
+                  className="bg-heroButtonBg p-2 pr-2 rounded-md"
                 >
                   <img
                     data-aos="fade-up"
@@ -58,11 +58,11 @@ const Hero = () => {
               </div>
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-3 min-w-[220px]"
+                className="flex items-center gap-3 min-w-220"
               >
                 <button
                   data-aos="fade-up"
-                  className="bg-[#f53fa1] p-2 pr-[10px] rounded-md"
+                  className="bg-heroButtonBg p-2 pr-2 rounded-md"
                 >
                   <img
                     data-aos="fade-up"
@@ -75,11 +75,11 @@ const Hero = () => {
               </div>
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-3 min-w-[220px]"
+                className="flex items-center gap-3 min-w-220"
               >
                 <button
                   data-aos="fade-up"
-                  className="bg-[#f53fa1] p-2 pr-[10px] rounded-md"
+                  className="bg-heroButtonBg p-2 pr-2 rounded-md"
                 >
                   <img
                     data-aos="fade-up"
@@ -94,11 +94,11 @@ const Hero = () => {
               </div>
               <div
                 data-aos="fade-up"
-                className="flex items-center gap-3 min-w-[220px]"
+                className="flex items-center gap-3 min-w-220"
               >
                 <button
                   data-aos="fade-up"
-                  className="bg-[#f53fa1] p-2 pr-[10px] rounded-md"
+                  className="bg-heroButtonBg p-2 pr-2 rounded-md"
                 >
                   <img
                     data-aos="fade-up"
@@ -115,7 +115,7 @@ const Hero = () => {
 
             <a href="#Bio">
               <div className="pt-2">
-                <button className=" bg-[#00cfe9] px-10 py-4 text-black rounded-2xl text-xl ">
+                <button className=" bg-heroSButtonBg px-10 py-4 text-black rounded-2xl text-xl ">
                   <span className="btn-inner relative z-10 text-xl font-bold">
                     Scroll down
                   </span>
@@ -126,25 +126,25 @@ const Hero = () => {
 
           <div
             data-aos="fade-up"
-            className="rounded-b-[80px] fade-image relative pt-2 "
+            className="rounded-b-radius80 fade-image relative pt-2 "
           >
             {/* Subtle background glow with stronger shine on the left side */}
             <div
-              className="absolute inset-0 bg-gradient-to-tl from-[#7cbee4]/60 via-[#7cbee4]/20 to-transparent 
+              className="absolute inset-0 bg-gradient-to-tl from-heroImageLeftShadow/60 via-heroImageLeftShadow/20 to-transparent 
                 blur-2xl opacity-90 rounded-full mix-blend-screen w-48 h-48 top-36
                 "
             ></div>
 
             {/* Subtle background glow with stronger shine on the right side */}
             <div
-              className=" absolute bg-gradient-to-tr from-[#cf3ec7]/60 via-[#cf3ec7]/20 to-transparent 
+              className=" absolute bg-gradient-to-tr from-heroImageRightShadow/60 via-heroImageRightShadow/20 to-transparent 
             blur-2xl opacity-90 rounded-full mix-blend-screen w-48 h-48 top-28 right-4  "
             ></div>
 
             {/* Main Image */}
             <img
               data-aos="fade-up"
-              className="rounded-b-[80px] rounded-t-xl w-[435px] h-auto object-cover "
+              className="rounded-b-radius80 rounded-t-xl w-435px h-auto object-cover "
               src="/assets/heroImage1.png"
               alt="Hero"
             />

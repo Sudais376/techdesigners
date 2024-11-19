@@ -24,7 +24,7 @@ const  Navbar = () => {
               <ul className="hidden md:flex justify-center items-center gap-6">
                 <Link to="/">
                   <a
-                    className="text-white hover:underline hover:text-[#ff4df3] transition duration-500"
+                    className="text-white hover:underline hover:text-navbarHoverText transition duration-500"
                     href="/"
                   >
                     Home
@@ -32,7 +32,7 @@ const  Navbar = () => {
                 </Link>
                 <Link to="/services">
                   <a
-                    className="text-white hover:underline hover:text-[#ff4df3] transition duration-500"
+                    className="text-white hover:underline hover:text-navbarHoverText transition duration-500"
                     href="/services"
                   >
                     Services
@@ -40,7 +40,7 @@ const  Navbar = () => {
                 </Link>
                 <Link to="/packages">
                   <a
-                    className="text-white hover:underline hover:text-[#ff4df3] transition duration-500"
+                    className="text-white hover:underline hover:text-navbarHoverText transition duration-500"
                     href="/packages"
                   >
                     Packages
@@ -53,9 +53,8 @@ const  Navbar = () => {
             <div className="flex-grow md:flex-grow-0 flex justify-start md:justify-center">
               <Link to="/">
                 <img
-                  className="hover:scale-105 transition duration-500"
+                  className=" w-7 md:w-10 hover:scale-105 transition duration-500"
                   src="/assets/logo.png"
-                  width={40}
                   alt="Brand Logo"
                 />
               </Link>
@@ -66,7 +65,7 @@ const  Navbar = () => {
               <ul className="hidden md:flex justify-center items-center gap-6">
                 <Link to="/portfolio">
                   <a
-                    className="text-white hover:underline hover:text-[#ff4df3] transition duration-500"
+                    className="text-white hover:underline hover:text-navbarHoverText transition duration-500"
                     href="/portfolio"
                   >
                     Portfolio
@@ -74,7 +73,7 @@ const  Navbar = () => {
                 </Link>
                 <Link to="/about">
                   <a
-                    className="text-white hover:underline hover:text-[#ff4df3] transition duration-500"
+                    className="text-white hover:underline hover:text-navbarHoverText transition duration-500"
                     href="/about"
                   >
                     About Us
@@ -82,7 +81,7 @@ const  Navbar = () => {
                 </Link>
                 <Link to="/contact">
                   <a
-                    className="text-white hover:underline hover:text-[#ff4df3] transition duration-500"
+                    className="text-white hover:underline hover:text-navbarHoverText transition duration-500"
                     href="/contact"
                   >
                     Contact Us
@@ -92,7 +91,7 @@ const  Navbar = () => {
 
               {/* Menu Icon for small screens */}
               <div className="md:hidden" onClick={toggleSmNavbar}>
-                <img src="/assets/menu.svg" width={60} alt="Menu Icon" />
+                <img className=" w-7 md:w-10 " src="/assets/menu.svg" alt="Menu Icon" />
               </div>
             </div>
           </nav>

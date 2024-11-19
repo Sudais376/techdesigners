@@ -52,10 +52,10 @@ const Bio = () => {
       <section data-aos="fade-up" className="">
       
 
-        <div data-aos="fade-up" className="max-w-[1000px] mx-auto ">
+        <div data-aos="fade-up" className="max-w-thousand mx-auto ">
           <h2
             data-aos="fade-up"
-            className="max-w-[800px] mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-6 md:pb-12"
+            className="max-w-8H mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-6 md:pb-12"
           >
             Who We Are?
           </h2>
@@ -68,8 +68,8 @@ const Bio = () => {
           {/* Biography for Muhammad Sudais */}
           <div
             data-aos="fade-up"
-            className={`relative py-12 px-6 border-2 border-[#cd52e3] rounded-2xl min-w-[340px] max-w-[340px] bg-gradient-to-br from-[#7e6c9b] to-[#534072] transition-all duration-500 overflow-hidden ${
-              showBio.sudais ? "max-h-full" : "max-h-[480px]"
+            className={`relative py-12 px-6 border-2 border-bioCBorder rounded-2xl min-w-340 max-w-340 bg-gradient-to-br from-cardGradientStart to-cardGradientEnd transition-all duration-500 overflow-hidden ${
+              showBio.sudais ? "max-h-full" : "max-h-430"
             } flex-shrink-0`}
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
@@ -77,7 +77,7 @@ const Bio = () => {
                 className="rounded-full border-2 border-white "
                 src="/assets/front end developer.png"
                 width={150}
-                alt="Image of Muhammad Sudais"
+                alt="Muhammad Sudais"
                 onClick={() => openModal("/assets/front end developer.png")}
               />
             </div>
@@ -100,7 +100,7 @@ const Bio = () => {
               </button>
             </div>
             {showBio.sudais && (
-              <div data-aos="fade-up" className=" bio py-4 text-center ">
+              <div data-aos="fade-up" className=" bio py-4  ">
                 an experienced web developer with a passion for turning ideas into interactive, high-performing websites. Skilled front-end coding, I specialize in creating responsive, scalable web solutions that enhance user experience and meet business goals. From dynamic features to seamless functionality, I bring expertise and dedication to every project. Let’s build something exceptional together—explore my work or reach out to discuss your vision!.
               </div>
             )}
@@ -109,8 +109,8 @@ const Bio = () => {
           {/* Biography for Muhammad Saad */}
           <div
             data-aos="fade-up"
-            className={`relative pt-12 px-6 border-2 border-[#cd52e3] rounded-2xl min-w-[340px] max-w-[340px] bg-gradient-to-br from-[#7e6c9b] to-[#534072] transition-all duration-500 overflow-hidden ${
-              showBio.saad ? "max-h-full" : "max-h-[480px]"
+            className={`relative pt-12 px-6 border-2 border-bioCBorder rounded-2xl min-w-340 max-w-340 bg-gradient-to-br from-cardGradientStart to-cardGradientEnd transition-all duration-500 overflow-hidden ${
+              showBio.saad ? "max-h-full" : "max-h-430"
             } flex-shrink-0 `}
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
@@ -118,7 +118,7 @@ const Bio = () => {
                 className="rounded-full border-2 border-white "
                 src="/assets/graphic designer.png"
                 width={150}
-                alt="Image of Muhammad Saad"
+                alt="Muhammad Saad"
                 onClick={() => openModal("/assets/graphic designer.png")}
               />
             </div>
@@ -143,7 +143,7 @@ const Bio = () => {
               </button>
             </div>
             {showBio.saad && (
-              <div data-aos="fade-up" className=" bio py-4 text-center ">
+              <div data-aos="fade-up" className=" bio py-4 ">
                 a graphic designer with over a year of experience specializing in UI and UX design. I’m passionate about creating visually compelling, user-focused digital experiences that bring brands to life. With a keen eye for detail and a deep understanding of user behavior, I design with purpose, ensuring every interaction is impactful and seamless. Let’s create something remarkable together—explore my portfolio or get in touch to discuss your next project.
               </div>
             )}

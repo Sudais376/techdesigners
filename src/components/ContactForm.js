@@ -40,7 +40,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div data-aos ="fade-up" className=" md:w-[80vw] mx-auto bg-gradient-to-r from-[#806d9a] to-[#493763] pt-24 pb-12 px-8 text-white flex flex-col gap-5 rounded-[40px] border-2 border-transparent bg-clip-border shadow-[inset_0_0_0_2px_#e81cff,inset_0_0_0_2px_#40c9ff]">
+      <div data-aos ="fade-up" className=" md:w-80vw mx-auto bg-gradient-to-r from-formGStart to-formGEnd pt-24 pb-12 px-8 text-white flex flex-col gap-5 rounded-radius40 border-2 border-transparent bg-clip-border shadow-[inset_0_0_0_2px_#e81cff,inset_0_0_0_2px_#40c9ff]">
         <form
           ref={form}
           onSubmit={handleSubmit} // Form submission handler
@@ -53,7 +53,7 @@ const ContactForm = () => {
               name="from_name" // This will match the template variable {{from_name}}
               placeholder="Name"
               required
-              data-aos ="fade-up" className="w-full p-3 rounded-lg text-lg text-white bg-[#493763] border border-[#857898] placeholder:opacity-50 focus:outline-none focus:border-[#e81cff]"
+              data-aos ="fade-up" className="w-full p-3 rounded-lg text-lg text-white bg-inputBg border border-inputBorder placeholder:opacity-50 focus:outline-none focus:border-inputFBorder"
             />
           </div>
           <div data-aos ="fade-up" className="flex flex-col gap-1">
@@ -63,7 +63,7 @@ const ContactForm = () => {
               name="from_email" // This will match the template variable {{from_email}}
               placeholder="Email"
               required
-              data-aos ="fade-up" className="w-full p-3 rounded-lg text-lg text-white bg-[#493763] border border-[#857898] placeholder:opacity-50 focus:outline-none focus:border-[#e81cff]"
+              data-aos ="fade-up" className="w-full p-3 rounded-lg text-lg text-white bg-inputBg border border-inputBorder placeholder:opacity-50 focus:outline-none focus:border-inputFBorder"
             />
           </div>
           <div data-aos ="fade-up" className="flex flex-col gap-1">
@@ -78,13 +78,13 @@ const ContactForm = () => {
               name="message" // This will match the template variable {{message}}
               rows="5"
               required
-              data-aos ="fade-up" className="w-full p-3 rounded-lg text-white bg-[#493763] border border-[#414141] focus:outline-none focus:border-[#e81cff] resize-none"
+              data-aos ="fade-up" className="w-full p-3 rounded-lg text-white bg-inputBg border border-inputBorder focus:outline-none focus:border-inputFBorder resize-none"
             ></textarea>
           </div>
           <div className="flex justify-center items-center">
             <button
               type="submit"
-              className="w-[40vw] btn1 !px-0 !m-0 transition ease-in duration-500"
+              className="w-40vw btn1 !px-0 !m-0 transition ease-in duration-500"
             >
               Send message
             </button>
@@ -99,11 +99,11 @@ const ContactForm = () => {
           onClick={hidePopup} // Close popup on overlay click
         >
           <div
-            className=" flex flex-col justify-center items-center bg-gradient-to-r from-[#302e69] to-[#35154b] p-6 rounded-lg shadow-lg w-[90%] max-w-[500px]"
+            className=" flex flex-col justify-center items-center bg-gradient-to-r from-thanksGbgStart to-thanksGbgEnd p-6 rounded-lg shadow-lg w-90% max-w-500"
             onClick={(e) => e.stopPropagation()} // Prevent click propagation
           >
             <Thanks /> {/* Render the Thanks component */}
-            <div className=" max-w-[150px] mx-auto ">
+            <div className=" max-w-150 mx-auto ">
             <button
               onClick={hidePopup} // Close popup on button click
               className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700"
