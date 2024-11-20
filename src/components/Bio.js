@@ -74,7 +74,7 @@ const Bio = () => {
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
-                className="rounded-full border-2 border-white "
+                className="rounded-full border-2 border-white cursor-pointer "
                 src="/assets/front end developer.png"
                 width={150}
                 alt="Muhammad Sudais"
@@ -101,7 +101,7 @@ const Bio = () => {
             </div>
             {showBio.sudais && (
               <div data-aos="fade-up" className=" bio py-4  ">
-                an experienced web developer with a passion for turning ideas into interactive, high-performing websites. Skilled front-end coding, I specialize in creating responsive, scalable web solutions that enhance user experience and meet business goals. From dynamic features to seamless functionality, I bring expertise and dedication to every project. Let’s build something exceptional together—explore my work or reach out to discuss your vision!.
+                an experienced web developer with a passion for turning ideas into interactive, high-performing websites. Skilled in front-end coding, I specialize in creating responsive, scalable web solutions that enhance user experience and meet business goals. From dynamic features to seamless functionality, I bring expertise and dedication to every project. Let’s build something exceptional together—explore my work or reach out to discuss your vision!.
               </div>
             )}
           </div>
@@ -115,7 +115,7 @@ const Bio = () => {
           >
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
-                className="rounded-full border-2 border-white "
+                className="rounded-full border-2 border-white cursor-pointer "
                 src="/assets/graphic designer.png"
                 width={150}
                 alt="Muhammad Saad"

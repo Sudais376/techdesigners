@@ -92,7 +92,7 @@ const PackagesComp = () => {
               </div>
             </div>
 
-            <div className=" transform hover:-rotate-6 duration-500 ">
+            <div className=" transform hover:-translate-y-6 duration-500 ">
               <div
                 data-aos="fade-up"
                 className=" Card bg-packageCardBg max-w-350 rounded-xl py-6 px-8 border-2 border-packageCardBorder "
@@ -155,7 +155,7 @@ const PackagesComp = () => {
               </div>
             </div>
 
-            <div className=" transform hover:-rotate-6 duration-500 ">
+            <div className=" transform hover:rotate-6 duration-500 ">
               <div
                 data-aos="fade-up"
                 className=" Card bg-packageCardBg max-w-350 rounded-xl py-6 px-8 border-2 border-packageCardBorder "
