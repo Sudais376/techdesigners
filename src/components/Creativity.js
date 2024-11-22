@@ -21,6 +21,15 @@ const Creativity = () => {
           </p>
         </div>
 
+        <div>
+        <h2
+            data-aos="fade-up"
+            className="max-w-8H mx-auto px-6 text-center font-bold text-2xl md:text-3xl pb-4"
+          >
+            Web solutions
+          </h2>
+        </div>
+
         {/* Container to Showcase some example work  */}
 
         <div

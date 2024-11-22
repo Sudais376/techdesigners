@@ -11,7 +11,7 @@ const PackagesComp = () => {
             data-aos="fade-up"
             className="max-w-8H mx-auto px-6 text-center font-bold text-3xl md:text-5xl pb-4"
           >
-            Packages
+            Web Packages
           </h2>
           <p
             data-aos="fade-up"

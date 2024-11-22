@@ -6,6 +6,7 @@ import ServicesComp from "../components/ServicesComp";
 import Creativity from "../components/Creativity";
 import PackagesComp from "../components/PackagesComp";
 import ContactOut from "../components/ContactOut";
+import SaadCreativity from "../components/SaadCreativity";
 
 const Home = () => {
 
@@ -23,11 +24,14 @@ const Home = () => {
 
       <Bio />
 
+      <ServicesComp />
+      
       <Creativity />
 
-      <ServicesComp />
 
       <PackagesComp />
+
+      <SaadCreativity />
 
       <ContactOut />
     </>
