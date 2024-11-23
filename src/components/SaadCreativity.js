@@ -74,7 +74,7 @@ const SaadCreativity = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
-                    Sample 1
+                    Gym poster
                   </span>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const SaadCreativity = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
-                    Sample 2
+                    Shoe poster
                   </span>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const SaadCreativity = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
-                    Sample 3
+                    Food poster
                   </span>
                 </div>
               </div>
@@ -143,15 +143,15 @@ const SaadCreativity = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
-                    Sample 4
+                    Air pods poster
                   </span>
                 </div>
               </div>
             </div>
             <div className=" flex justify-center items-center w-full ">
             <button className="mt-2 px-6 py-2 w-1/2 md:w-1/4 bg-buttonBg text-white rounded-lg hover:bg-buttonHBg transition duration-500 ">
-              <a href="https://wa.me/+923069005537" target="_blank">
-                Hire me!
+              <a href="https://wa.me/+923069005537" target="_blank" rel="noreferrer" >
+                Hire designer!
               </a>
             </button>
           </div>
