@@ -1,8 +1,48 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Creativity = () => {
+
+  const [modalImage, setModalImage] = useState(null);
+
+  const openModal = (imageSrc) => {
+    setModalImage(imageSrc);
+  };
+
+  const closeModal = () => {
+    setModalImage(null);
+  };
+
   return (
     <>
+
+{/* Modal for Image Pop-up */}
+{modalImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+          onClick={closeModal} // Close modal on clicking outside the image
+        >
+          <div
+            className="max-w-[1000px] max-h-[800px]"
+            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on modal content
+          >
+            {/* Close Button */}
+            <button
+                className="absolute top-8 right-3 bg-red-500 text-white px-3 py-1 rounded"
+                onClick={closeModal}
+              >
+                Close
+              </button>
+
+            {/* Image */}
+            <img
+              src={modalImage}
+              alt="Popup view"
+              className="rounded-lg max-w-full max-h-screen"
+            />
+          </div>
+        </div>
+      )}
+
       {/* Section for Showcasing Some sample Works  */}
       <section className=" pt-12 px-8 ">
         {/* Heading Container */}
@@ -40,13 +80,19 @@ const Creativity = () => {
             data-aos="fade-up"
             className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder"
           >
-            <div data-aos="fade-up">
+            <div data-aos="fade-up"  className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/shopEase.png")}>
               <img
-                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
+                className=" h-sImageH object-cover rounded-xl"
                 src="/assets/shopEase.png"
                 width={480}
                 alt=""
               />
+              <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Shop Ease
+                </span>
+              </div>
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">
@@ -66,13 +112,19 @@ const Creativity = () => {
             data-aos="fade-up"
             className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder"
           >
-            <div data-aos="fade-up">
+            <div data-aos="fade-up" className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/techVibe.png")}>
               <img
-                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
+                className=" h-sImageH object-cover rounded-xl"
                 src="/assets/techVibe.png"
                 width={480}
                 alt=""
               />
+              <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Tech Vibe
+                </span>
+              </div>
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">
@@ -92,13 +144,19 @@ const Creativity = () => {
             data-aos="fade-up"
             className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder max-h-435 "
           >
-            <div data-aos="fade-up">
+            <div data-aos="fade-up" className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/velocityDrive.png")}>
               <img
-                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
+                className=" h-sImageH object-cover rounded-xl"
                 src="/assets/velocityDrive.png"
                 width={480}
                 alt=""
               />
+              <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Velocity Drive
+                </span>
+              </div>
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">
@@ -118,13 +176,19 @@ const Creativity = () => {
             data-aos="fade-up"
             className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder max-h-435 "
           >
-            <div data-aos="fade-up">
+            <div data-aos="fade-up" className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/foodDelight.png")}>
               <img
-                className=" hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
+                className=" h-sImageH object-cover rounded-xl"
                 src="/assets/foodDelight.png"
                 width={480}
                 alt=""
               />
+              <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Food Delight
+                </span>
+              </div>
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div className="pt-10 pl-2">

@@ -84,9 +84,15 @@ const PackagesComp = () => {
                     </li>
                   </ul>
                 </div>
-                <div data-aos="fade-up" className=" pt-8 ">
-                  <button className=" bg-packageButtonBg font-bold text-center px-6 py-2 rounded-md w-full ">
-                    Get Started
+                <div data-aos="fade-up" className="pt-8">
+                  <button className="bg-packageButtonBg hover:bg-buttonHBg font-bold text-center px-6 py-2 rounded-md w-full transition-all duration-500">
+                    <a
+                      href="https://wa.me/+923335101246"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click to chat!
+                    </a>
                   </button>
                 </div>
               </div>
@@ -147,9 +153,15 @@ const PackagesComp = () => {
                     </li>
                   </ul>
                 </div>
-                <div data-aos="fade-up" className=" pt-8 ">
-                  <button className=" bg-packageButtonBg font-bold text-center px-6 py-2 rounded-md w-full ">
-                    Get Started
+                <div data-aos="fade-up" className="pt-8">
+                  <button className="bg-packageButtonBg hover:bg-buttonHBg font-bold text-center px-6 py-2 rounded-md w-full transition-all duration-500">
+                    <a
+                      href="https://wa.me/+923335101246"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click to chat!
+                    </a>
                   </button>
                 </div>
               </div>
@@ -212,9 +224,15 @@ const PackagesComp = () => {
                     </li>
                   </ul>
                 </div>
-                <div data-aos="fade-up" className=" pt-8 ">
-                  <button className=" bg-packageButtonBg font-bold text-center px-6 py-2 rounded-md w-full ">
-                    Get Started
+                <div data-aos="fade-up" className="pt-8">
+                  <button className="bg-packageButtonBg hover:bg-buttonHBg font-bold text-center px-6 py-2 rounded-md w-full transition-all duration-500">
+                    <a
+                      href="https://wa.me/+923335101246"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click to chat!
+                    </a>
                   </button>
                 </div>
               </div>
