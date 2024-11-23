@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import Creativity from '../components/Creativity'
+import SaadCreativity from '..//components/SaadCreativity';
 
 const Portfolio = () => {
 
@@ -15,6 +16,8 @@ const Portfolio = () => {
     </Helmet>
     
     <Creativity />
+
+    <SaadCreativity />
     </>
   )
 }
