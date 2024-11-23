@@ -15,29 +15,31 @@ const SaadCreativity = () => {
     <>
       {/* Modal for Image Pop-up */}
       {modalImage && (
-  <div
-    className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
-    onClick={closeModal}
-  >
-    <div className=" max-w-full max-h-full">
-      {/* Close Button */}
-      <button
-        className=" absolute top-4 right-4 text-white text-4xl font-bold"
-        onClick={closeModal}
-      >
-        &times;
-      </button>
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+          onClick={closeModal} // Close modal on clicking outside the image
+        >
+          <div
+            className="max-w-full max-h-full"
+            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on modal content
+          >
+            {/* Close Button */}
+            <button
+              className="absolute top-4 right-4 text-white text-4xl font-bold"
+              onClick={closeModal}
+            >
+              &times;
+            </button>
 
-      {/* Image */}
-      <img
-        src={modalImage}
-        alt="Popup view"
-        className="rounded-lg max-w-full max-h-screen"
-      />
-    </div>
-  </div>
-)}
-
+            {/* Image */}
+            <img
+              src={modalImage}
+              alt="Popup view"
+              className="rounded-lg max-w-full max-h-screen"
+            />
+          </div>
+        </div>
+      )}
 
       <section>
         <div>
@@ -52,37 +54,117 @@ const SaadCreativity = () => {
         {/* Container to Showcase some example work */}
         <div
           data-aos="fade-up"
-          className=" py-12 flex flex-wrap justify-center gap-x-16 gap-y-12"
+          className="py-12 flex flex-wrap justify-center gap-x-16 gap-y-12"
         >
+          {/* Card 1 */}
           <div
             data-aos="fade-up"
-            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder"
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl"
           >
-            <div data-aos="fade-up">
+            <div
+              className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/sample1.png")}
+            >
               <img
-                className=" hover:scale-105 transition duration-500 h-sImageH object-fill rounded-xl cursor-pointer"
+                className="transition duration-500 h-[480px] object-fill rounded-xl"
                 src="/assets/sample1.png"
                 width={480}
                 alt="Sample 1"
-                onClick={() => openModal("/assets/sample1.png")} // Open modal on click
               />
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Sample 1
+                </span>
+              </div>
             </div>
-            <div data-aos="fade-up" className="pt-2">
-              <div className="pt-10 pl-2">
-                <p className="italic font-light text-xl">Shop Ease</p>
+            <div className=" flex justify-center items-center " >
+            <button className="mt-4 px-6 py-2 bg-buttonBg text-white rounded-lg hover:bg-buttonHBg transition duration-500 ">
+              <a href="https://wa.me/+923335101246">Hire me!</a>
+            </button>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div
+            data-aos="fade-up"
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl"
+          >
+            <div
+              className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/sample2.png")}
+            >
+              <img
+                className="transition duration-500 h-[480px] object-fill rounded-xl"
+                src="/assets/sample2.png"
+                width={480}
+                alt="Sample 2"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Sample 2
+                </span>
               </div>
-              <div className="pt-1 px-2 flex justify-between items-center">
-                <p className="italic font-light text-xl">
-                  Business / Shopping
-                </p>
-                <a
-                  href="https://shop-ease-plum.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="/assets/linkArrow.svg" width={30} alt="" />
-                </a>
+            </div>
+            <div className=" flex justify-center items-center " >
+            <button className="mt-4 px-6 py-2 bg-buttonBg text-white rounded-lg hover:bg-buttonHBg transition duration-500 ">
+              <a href="https://wa.me/+923335101246">Hire me!</a>
+            </button>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div
+            data-aos="fade-up"
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl"
+          >
+            <div
+              className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/sample3.png")}
+            >
+              <img
+                className="transition duration-500 h-[480px] object-fill rounded-xl"
+                src="/assets/sample3.png"
+                width={480}
+                alt="Sample 3"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Sample 3
+                </span>
               </div>
+            </div>
+            <div className=" flex justify-center items-center " >
+            <button className="mt-4 px-6 py-2 bg-buttonBg text-white rounded-lg hover:bg-buttonHBg transition duration-500 ">
+              <a href="https://wa.me/+923335101246">Hire me!</a>
+            </button>
+            </div>
+          </div>
+
+          {/* Card 4 */}
+          <div
+            data-aos="fade-up"
+            className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl"
+          >
+            <div
+              className="relative group cursor-pointer"
+              onClick={() => openModal("/assets/sample4.png")}
+            >
+              <img
+                className="transition duration-500 h-[480px] object-fill rounded-xl"
+                src="/assets/sample4.png"
+                width={480}
+                alt="Sample 4"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <span className="text-white text-xl font-semibold">
+                  Sample 4
+                </span>
+              </div>
+            </div>
+            <div className=" flex justify-center items-center " >
+            <button className="mt-4 px-6 py-2 bg-buttonBg text-white rounded-lg hover:bg-buttonHBg transition duration-500 ">
+              <a href="https://wa.me/+923335101246">Hire me!</a>
+            </button>
             </div>
           </div>
         </div>

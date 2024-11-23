@@ -37,6 +37,8 @@ module.exports = {
         "packageButtonBg" : "#ff4df3",
         "servicesButtonBg" : "#ff00fb",
         "smNavbarBorder" : "#ff4df3",
+        "buttonBg" : "#ff4df3",
+        "buttonHBg" : "#d53dcb",
       },
       width : {
         '80vw' : '80vw',
