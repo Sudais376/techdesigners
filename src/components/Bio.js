@@ -75,10 +75,10 @@ const Bio = () => {
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
                 className="rounded-full border-2 border-white cursor-pointer "
-                src="/assets/front end developer.png"
+                src="/assets/m-Sudais.png"
                 width={150}
                 alt="Muhammad Sudais"
-                onClick={() => openModal("/assets/front end developer.png")}
+                onClick={() => openModal("/assets/m-Sudais.png")}
               />
             </div>
             <div data-aos="fade-up ">
@@ -116,10 +116,10 @@ const Bio = () => {
             <div data-aos="fade-up" className="flex justify-center items-center">
               <img
                 className="rounded-full border-2 border-white cursor-pointer "
-                src="/assets/graphic designer.png"
+                src="/assets/m-Saad.png"
                 width={150}
                 alt="Muhammad Saad"
-                onClick={() => openModal("/assets/graphic designer.png")}
+                onClick={() => openModal("/assets/m-Saad.png")}
               />
             </div>
             <span
