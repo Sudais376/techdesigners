@@ -72,7 +72,7 @@ const SaadCreativity = () => {
                   width={480}
                   alt="Sample 1"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
                     Gym poster
                   </span>
@@ -95,7 +95,7 @@ const SaadCreativity = () => {
                   width={480}
                   alt="Sample 2"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
                     Shoe poster
                   </span>
@@ -118,7 +118,7 @@ const SaadCreativity = () => {
                   width={480}
                   alt="Sample 3"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
                     Food poster
                   </span>
@@ -141,7 +141,7 @@ const SaadCreativity = () => {
                   width={480}
                   alt="Sample 4"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
                   <span className="text-white text-xl font-semibold">
                     Air pods poster
                   </span>

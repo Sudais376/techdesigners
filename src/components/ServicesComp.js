@@ -35,13 +35,18 @@ const ServicesComp = () => {
             data-aos="fade-up"
             className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder "
           >
-            <div data-aos="fade-up">
+            <div data-aos="fade-up" className=" group cursor-pointer " >
               <img
                 className="hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
                 src="/assets/graphicDesigningServices.png"
                 width={480}
                 alt=""
               />
+              <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                  <span className="text-white text-xl font-semibold">
+                    Design Services
+                  </span>
+                </div>
             </div>
             <div data-aos="fade-up" className="pt-2 text-center">
               <div data-aos="fade-up" className="pt-4 pl-2">
@@ -68,13 +73,18 @@ const ServicesComp = () => {
             data-aos="fade-up"
             className="Card max-w-500 bg-gradient-to-r from-sampleCGBgStart to-sampleCGBgEnd overflow-hidden p-1 rounded-2xl border-4 border-sampleCardBorder "
           >
-            <div data-aos="fade-up">
+            <div data-aos="fade-up" className=" group cursor-pointer " >
               <img
-                className="hover:scale-105 transition duration-500 h-sImageH object-cover rounded-xl"
+                className=" h-sImageH object-cover rounded-xl"
                 src="/assets/frontEndServices.png"
                 width={480}
                 alt=""
               />
+              <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-700 flex items-center justify-center">
+                  <span className="text-white text-xl font-semibold">
+                    Web Solutions
+                  </span>
+                </div>
             </div>
             <div data-aos="fade-up" className="pt-2">
               <div data-aos="fade-up" className="pt-4 text-center">
