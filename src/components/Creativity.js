@@ -102,7 +102,7 @@ const Creativity = () => {
                 <p className=" italic font-light text-xl">
                   Business / Shopping
                 </p>
-                <a href="https://shop-ease-plum.vercel.app/" target="_blank" rel="noreferrer">
+                <a href="https://shop-ease-chi-sandy.vercel.app/" target="_blank" rel="noreferrer">
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
               </div>
@@ -134,7 +134,7 @@ const Creativity = () => {
                 <p className=" italic font-light text-xl">
                   Business / Tech
                 </p>
-                <a href="https://tech-vibe-iota.vercel.app/" target="_blank" rel="noreferrer">
+                <a href="https://techvibe.vercel.app/" target="_blank" rel="noreferrer">
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
               </div>
@@ -166,7 +166,7 @@ const Creativity = () => {
                 <p className=" italic font-light text-xl">
                   Business / Shopping
                 </p>
-                <a href="https://velocity-drive.vercel.app/" target="_blank" rel="noreferrer">
+                <a href="https://velocitydrive-nine.vercel.app/" target="_blank" rel="noreferrer">
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
                 </a>
               </div>
@@ -199,7 +199,7 @@ const Creativity = () => {
                   Business / Food
                 </p>
                 <a
-                  href="https://food-delight-livid.vercel.app/"
+                  href="https://fooddelight-pi.vercel.app/"
                   target="_blank" rel="noreferrer"
                 >
                   <img src="/assets/linkArrow.svg" width={30} alt="" />
