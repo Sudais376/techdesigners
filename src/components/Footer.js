@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
         <div className=" text-center md:pr-12 pt-8">
           <span className="text-center text-copyrightText">
-            &copy; Wedesign International ltd. 2024 | All Rights Reserved{" "}
+            &copy; techdesigners International ltd. 2024 | All Rights Reserved{" "}
           </span>
         </div>
       </section>
