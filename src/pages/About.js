@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title> About Us | We Design </title>
+        <title> About Us | Tech Designers </title>
       </Helmet>
       <AboutComponent />
     </>

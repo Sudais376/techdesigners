@@ -11,7 +11,7 @@ const Services = () => {
   return (
    <>
    <Helmet>
-    <title> Services | We Design </title>
+    <title> Services | Tech Designers </title>
    </Helmet>
 
    <ServicesComp />

@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <>
     <Helmet>
-        <title> Portfolio | We Design </title>
+        <title> Portfolio | Tech Designers </title>
     </Helmet>
     
     <Creativity />

@@ -11,7 +11,7 @@ const Packages = () => {
   return (
     <>
     <Helmet>
-        <title> Packages | We Design </title>
+        <title> Packages | Tech Designers </title>
     </Helmet>
     
     <PackagesComp />
